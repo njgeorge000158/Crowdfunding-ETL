@@ -1,0 +1,124 @@
+
+Timepoint: 09/22/2023 11:44:04
+Program execution begins...
+
+
+
+Timepoint: 09/22/2023 11:44:05
+[1mTable 1.1.2: Crowdfunding DataFrame Information:
+[0m
+
+
+Timepoint: 09/22/2023 11:44:05
+[1mThis is a List of the Crowdfunding DataFrame's column titles:
+
+[0mIndex(['cf_id', 'contact_id', 'company_name', 'blurb', 'goal', 'pledged',
+       'outcome', 'backers_count', 'country', 'currency', 'launched_at',
+       'deadline', 'staff_pick', 'spotlight', 'category & sub-category'],
+      dtype='object')
+
+
+Timepoint: 09/22/2023 11:44:05
+[1mThis is the list of 9 categories from the Crowdfunding DataFrame in alphabetical order:
+
+[0m['film & video', 'food', 'games', 'journalism', 'music', 'photography', 'publishing', 'technology', 'theater']
+
+
+Timepoint: 09/22/2023 11:44:05
+[1mThis is the list of 24 subcategories from the Crowdfunding DataFrame in alphabetical order:
+
+[0m['animation', 'audio', 'documentary', 'drama', 'electric music', 'fiction', 'food trucks', 'indie rock', 'jazz', 'metal', 'mobile games', 'nonfiction', 'photography books', 'plays', 'radio & podcasts', 'rock', 'science fiction', 'shorts', 'television', 'translations', 'video games', 'wearables', 'web', 'world music']
+
+
+Timepoint: 09/22/2023 11:44:05
+[1mThis is the numPy Array for Category IDs:
+[0m[1 2 3 4 5 6 7 8 9]
+
+
+
+Timepoint: 09/22/2023 11:44:05
+[1mThis is the numPy Array for Subcategory IDs:
+[0m[ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24]
+
+
+Timepoint: 09/22/2023 11:44:05
+[1mTable 2.3.3: Clean Merged Campaign DataFrame Information:
+[0m
+
+
+Timepoint: 09/22/2023 11:44:05
+[1mTable 3.2.2: Contacts DataFrame Information:
+[0m
+
+
+Timepoint: 09/22/2023 11:44:05
+[1mTable 3.2.3: Contacts DataFrame Information with Updated Column Data Type:
+[0m
+
+
+Timepoint: 09/22/2023 11:44:05
+[1mTable 3.4.2: Clean Contacts DataFrame Information:
+[0m
+
+
+Timepoint: 09/22/2023 11:44:19
+Program execution begins...
+
+
+
+Timepoint: 09/22/2023 11:44:19
+[1mTable 1.1.2: Crowdfunding DataFrame Information:
+[0m
+
+
+Timepoint: 09/22/2023 11:44:19
+[1mThis is a List of the Crowdfunding DataFrame's column titles:
+
+[0mIndex(['cf_id', 'contact_id', 'company_name', 'blurb', 'goal', 'pledged',
+       'outcome', 'backers_count', 'country', 'currency', 'launched_at',
+       'deadline', 'staff_pick', 'spotlight', 'category & sub-category'],
+      dtype='object')
+
+
+Timepoint: 09/22/2023 11:44:19
+[1mThis is the list of 9 categories from the Crowdfunding DataFrame in alphabetical order:
+
+[0m['film & video', 'food', 'games', 'journalism', 'music', 'photography', 'publishing', 'technology', 'theater']
+
+
+Timepoint: 09/22/2023 11:44:19
+[1mThis is the list of 24 subcategories from the Crowdfunding DataFrame in alphabetical order:
+
+[0m['animation', 'audio', 'documentary', 'drama', 'electric music', 'fiction', 'food trucks', 'indie rock', 'jazz', 'metal', 'mobile games', 'nonfiction', 'photography books', 'plays', 'radio & podcasts', 'rock', 'science fiction', 'shorts', 'television', 'translations', 'video games', 'wearables', 'web', 'world music']
+
+
+Timepoint: 09/22/2023 11:44:19
+[1mThis is the numPy Array for Category IDs:
+[0m[1 2 3 4 5 6 7 8 9]
+
+
+
+Timepoint: 09/22/2023 11:44:19
+[1mThis is the numPy Array for Subcategory IDs:
+[0m[ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24]
+
+
+Timepoint: 09/22/2023 11:44:19
+[1mTable 2.3.3: Clean Merged Campaign DataFrame Information:
+[0m
+
+
+Timepoint: 09/22/2023 11:44:19
+[1mTable 3.2.2: Contacts DataFrame Information:
+[0m
+
+
+Timepoint: 09/22/2023 11:44:19
+[1mTable 3.2.3: Contacts DataFrame Information with Updated Column Data Type:
+[0m
+
+
+Timepoint: 09/22/2023 11:44:20
+[1mTable 3.4.2: Clean Contacts DataFrame Information:
+[0m
+

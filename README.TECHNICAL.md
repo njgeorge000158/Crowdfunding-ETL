@@ -1,5 +1,5 @@
 # Overview:
-
+----
 The IPython notebook, ETLMiniProject_NGeorge_SSmith.ipynb, requires the following Python scripts with it in the same folder:
 
 ETLMiniProjectConstants.py
@@ -63,3 +63,9 @@ If you have not installed them, here are the instructions:
 If the folders, Resources, Logs, and Images are not present, the IPython notebook will create them.
 
 To place the IPython notebook in log mode, debug mode, or image mode set the parameter for the appropriate subroutine in cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the Logs folder; the same is true in log mode for log information sent to a log file in the same folder. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all the plots to png files and all maps to html files in the Images folder.
+----
+# Resources:
+----
+Data Source: crowdfunding.xlsx - backer_info.csv
+Software: Python 3.7.13, Jupyter Notebook, SQL, PostgreSQL, pgAdmin 4
+----

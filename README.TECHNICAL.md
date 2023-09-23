@@ -195,16 +195,34 @@ Jupyter Notebook, Python 3.11.4, Quick DBD - free DBD canvas, pgadmin4, Postgres
 
 |&rarr; [./SQL/](./SQL/)
 
-  &emsp; |&rarr; [./SQL/crowdfunding_db_schema.sql](./SQL/crowdfunding_db_schema.sql)
-
   &emsp; |&rarr; [./SQL/PostgresDBTable_campaign.png](./SQL/PostgresDBTable_campaign.png)
 
   &emsp; |&rarr; [./SQL/PostgresDBTable_category.png](./SQL/PostgresDBTable_category.png)
-
+  
   &emsp; |&rarr; [./SQL/PostgresDBTable_contacts.png](./SQL/PostgresDBTable_contacts.png)
 
-  &emsp; |&rarr; [./SQL/PostgresDBTable_subcategory.png](./SQL/PostgresDBTable_subcategory.png)  
+  &emsp; |&rarr; [./SQL/PostgresDBTable_subcategory.png](./SQL/PostgresDBTable_subcategory.png)
 
-  &emsp; |&rarr; [./SQL/Project2Group8EntityRelationshipDiagram.png](./SQL/Project2Group8EntityRelationshipDiagram.png)
+  &emsp; |&rarr; [./SQL/Project2Group8EntityRelationshipDiagram.png (./SQL/Project2Group8EntityRelationshipDiagram.png)
 
   &emsp; |&rarr; [./SQL/README.md](./SQL/README.md)
+
+  &emsp; |&rarr; [./SQL/crowdfunding_db_schema.sql](./SQL/crowdfunding_db_schema.sql)
+
+----
+
+## References
+
+----
+
+[ETL (Extract, Transform, Load)](https://www.bmc.com/blogs/what-is-etl-extract-transform-load-etl-explained/) \
+
+[Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html) \
+
+[PgAdmin Documentation](https://www.postgresql.org/docs/) \
+
+[Postgres Documentation](https://www.pgadmin.org/docs/) \
+
+[PostgresSQL Documentation](https://www.postgresql.org/docs/) \
+
+[The Complete Guide to Regular Expressions](https://coderpad.io/blog/development/the-complete-guide-to-regular-expressions-regex/) \

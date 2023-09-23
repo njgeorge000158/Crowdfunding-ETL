@@ -168,6 +168,7 @@ The deliverables for Project 2, Crowdfunding ETL, are in this GitHub repository 
   &emsp; |&rarr; [./Images/ETLMiniProjectTable341CleanContactsDataFrame.png](./Images/ETLMiniProjectTable341CleanContactsDataFrame.png)
   
   &emsp; |&rarr; [./Images/ETLMiniProjectTable343CleanContactsDataFrameMemoryUsage.png](./Images/ETLMiniProjectTable343CleanContactsDataFrameMemoryUsage.png)
+  
   &emsp; |&rarr; [./Images/README.md](./Images/README.md)
 
 

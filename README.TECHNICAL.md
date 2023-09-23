@@ -102,19 +102,30 @@ The deliverables for Project 2, Crowdfunding ETL, are in this GitHub repository 
 
 ### main branch 
 
-|&rarr; [./ETLMiniProjectConstants.py](./ETLMiniProjectConstants.py)  
+|&rarr; [./ETLMiniProjectConstants.py](./ETLMiniProjectConstants.py)
+
 |&rarr; [./ETLMiniProject_NGeorge_SSmith.ipynb](./ETLMiniProject_NGeorge_SSmith.ipynb)
+
 |&rarr; [./PyConstants.py](./PyConstants.py)  
+
 |&rarr; [./PyFunctions.py](./PyFunctions.py)
+
 |&rarr; [./PyLogConstants.py](./PyLogConstants.py)
+
 |&rarr; [./PyLogFunctions.py](./PyLogFunctions.py)
+
 |&rarr; [./PyLogSubRoutines.py](./PyLogSubRoutines.py)
+
 |&rarr; [./PySubRoutines.py](./PySubRoutines.py)
+
 |&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
+
 |&rarr; [./README.md](./README.md)
 
- &emsp; |&rarr; [./Images/ETLMiniProjectTable111InitialCrowdfundingDataFrame.png](./Images/ETLMiniProjectTable111InitialCrowdfundingDataFrame.png)
- &emsp; |&rarr; [./Images/ETLMiniProjectTable113CrowdfundingDataFrameDescription.png](./Images/ETLMiniProjectTable113CrowdfundingDataFrameDescription.png)
+|&rarr; ./Images/
+
+&emsp; |&rarr; [./Images/ETLMiniProjectTable111InitialCrowdfundingDataFrame.png](./Images/ETLMiniProjectTable111InitialCrowdfundingDataFrame.png)
+&emsp; |&rarr; [./Images/ETLMiniProjectTable113CrowdfundingDataFrameDescription.png](./Images/ETLMiniProjectTable113CrowdfundingDataFrameDescription.png)
  &emsp; |&rarr; [./Images/ETLMiniProjectTable114CrowdfundingDataFrameMemoryUsage.png](./Images/ETLMiniProjectTable114CrowdfundingDataFrameMemoryUsage.png)
  &emsp; |&rarr; [./Images/ETLMiniProjectTable121UpdatedCrowdfundingDataFrame.png](./Images/ETLMiniProjectTable121UpdatedCrowdfundingDataFrame.png)
  &emsp; |&rarr; [./Images/ETLMiniProjectTable131CategoryDataFrame.png](./Images/ETLMiniProjectTable131CategoryDataFrame.png)

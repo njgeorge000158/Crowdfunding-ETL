@@ -18,7 +18,7 @@ If the computer has Anaconda, Jupyter Notebook, and a recent version of Python, 
 
 In addition to those modules, the IPython notebook needs the following to execute: holoviews, hvplot, panel, geoviews, geopy, aspose-words, dataframe-image.
 
-Here are the requisite Terminal commands for installation of these peripheral modules (in this order) (SQLite is already install on macOS:
+Here are the requisite Terminal commands for installation of these peripheral modules:
 
 python3 -m pip install holoviews
 

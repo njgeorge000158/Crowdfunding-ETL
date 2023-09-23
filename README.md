@@ -2,6 +2,9 @@
 # Crowdfunding ETL Project
 ## Group 8: Nicholas George, Stephen Smith
 ----
+## Introduction:
+
+
 ## Extract:
 ![ETLMiniProjectTable111InitialCrowdfundingDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/4f67c4fa-6e27-4e65-ac28-e62508ca6525)
 ![ETLMiniProjectTable311InitialContactsDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/f0d6b80f-ea60-404a-8b23-b03eca2ae0d3)

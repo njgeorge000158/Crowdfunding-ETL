@@ -1,4 +1,4 @@
-This folder contains the input Excel files for the IPython Notebook, ETLMiniProject.ipynb, as well as the output CSV files for loading into a Postgres database, crowdfunding_db.
+This folder contains the input Excel files for the IPython Notebook, ETLMiniProject.ipynb, as well as the output CSV files from the IPython Notebook for loading into a Postgres database, crowdfunding_db.
 
 ----
 

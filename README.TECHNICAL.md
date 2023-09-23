@@ -98,8 +98,6 @@ Jupyter Notebook, Python 3.11.4, Quick DBD - free DBD canvas, pgadmin4, Postgres
 
 ----
 
-The deliverables for Project 2, Crowdfunding ETL, are in this GitHub repository as follows.  
-
 ### main branch 
 
 |&rarr; [./ETLMiniProjectConstants.py](./ETLMiniProjectConstants.py)
@@ -173,25 +171,27 @@ The deliverables for Project 2, Crowdfunding ETL, are in this GitHub repository 
 
 |&rarr; [./Logs/](./Logs/)
 
- 
+  &emsp; |&rarr; [./Logs/20230922ETLMiniProjectDebug.txt](./Logs/20230922ETLMiniProjectDebug.txt)
 
-|&rarr; [./README.md](./README.md)  
+  &emsp; |&rarr; [./Logs/20230922ETLMiniProjectLog.txt](./Logs/20230922ETLMiniProjectLog.txt)
 
-|&rarr; [./ETL_Practice.ipynb](./ETL_Practice.ipynb)  
-|&rarr; [./Resources.zip](./Resources.zip)  
-|&rarr; ./Queries/  
-  &emsp; |&rarr; [./Queries/crowdfunding_db_schema.sql](./Queries/crowdfunding_db_schema.sql)  
-  &emsp; |&rarr; [./Queries/crowdfunding_SQL_Analysis.sql](./Queries/crowdfunding_SQL_Analysis.sql)  
-|&rarr; ./Data/  
-  &emsp; |&rarr; [./Data/crowdfunding_db_relationships.png](./Data/crowdfunding_db_relationships.png)  
-  &emsp; |&rarr; [./Data/category.csv](./Data/category.csv)  
-  &emsp; |&rarr; [./Data/subcategory.csv](./Data/subcategory.csv)  
-  &emsp; |&rarr; [./Data/contacts.csv](./Data/contacts.csv)  
-  &emsp; |&rarr; [./Data/campaign.csv](./Data/campaign.csv)  
-  &emsp; |&rarr; [./Data/backers.csv](./Data/backers.csv)  
-  &emsp; |&rarr; [./Data/email_contacts_remaining_goal_amount.csv](./Data/email_contacts_remaining_goal_amount.csv)  
-  &emsp; |&rarr; [./Data/email_backers_remaining_goal_amount.csv](./Data/email_backers_remaining_goal_amount.csv)  
-  &emsp; |&rarr; [./Data/backers.png](./Data/backers.png)  
-  &emsp; |&rarr; [./Data/campaign_backers_diff.png](./Data/campaign_backers_diff.png)  
-  &emsp; |&rarr; [./Data/email_contacts_remaining_goal_amount.png](./Data/email_contacts_remaining_goal_amount.png)  
-  &emsp; |&rarr; [./Data/email_backers_remaining_goal_amount.png](./Data/email_backers_remaining_goal_amount.png)  
+  &emsp; |&rarr; [./Logs/README.md](./Logs/README.md)
+
+|&rarr; [./Resources/](./Resources/)
+
+  &emsp; |&rarr; [./Resources/campaign.csv](./Resources/campaign.csv)
+
+  &emsp; |&rarr; [./Resources/category.csv](./Resources/category.csv)
+
+  &emsp; |&rarr; [./Resources/contacts.csv](./Resources/contacts.csv)
+
+  &emsp; |&rarr; [./Resources/contacts.xlsx](./Resources/contacts.xlsx)
+
+  &emsp; |&rarr; [./Resources/crowdfunding.xlsx](./Resources/crowdfunding.xlsx)
+
+  &emsp; |&rarr; [./Resources/README.md](./Resources/README.md)
+
+  &emsp; |&rarr; [./Resources/subcategory.csv](./Resources/subcategory.csv)
+
+
+

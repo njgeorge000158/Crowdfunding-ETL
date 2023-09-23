@@ -18,6 +18,9 @@ A snapshot of the contacts data set initially loaded into a DataFrame:
 
 First, the Python Script, ETLMiniProject_NGeorge_SSmith.ipynb, reads MS Excel files, crowdfunding.xlsx and contacts.xlsx, into Pandas DataFrames using the DataFrame method, read_excel.  This method allows us to set data types upon extraction through a predefined Dictionary, which precludes the need to explicitly changing data types later with other methods (e.g., astype).  From the Crowdfunding DataFrame, the script finds the unique values for category and subcategory mixed together in a single column, extracts, separates, and sorts them into Lists, and eventually assigns them to individual DataFrames with associated sequential indices.
 
+![ETLMiniProjectTable131CategoryDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/6ccfe277-9d7c-4812-9084-539126667c66)![ETLMiniProjectTable132SubcategoryDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/bc08a267-e89b-4f27-b5c0-5f641c6548b6)
+
+
 ## <ins>Transform</ins>
 
 To create the Campaign DataFrame, the script takes the Crowdfunding DataFrame, reformats integers representing seconds since January 1, 1971, to a easily recognizable date format, merges the DataFrame with the Category and Subcategory DataFrames, and drops any unwanted columns.

@@ -1,4 +1,6 @@
-# Overview:
+## Overview:
+
+----
 
 The IPython notebook, ETLMiniProject_NGeorge_SSmith.ipynb, requires the following Python scripts with it in the same folder:
 
@@ -65,7 +67,10 @@ If the folders, Resources, Logs, and Images are not present, the IPython noteboo
 To place the IPython notebook in log mode, debug mode, or image mode set the parameter for the appropriate subroutine in cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the Logs folder; the same is true in log mode for log information sent to a log file in the same folder. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all the plots to png files and all maps to html files in the Images folder.
 
 ----
-# Resource Summary:
+
+## Resource Summary:
+
+----
 
 Source code: ETLMiniProject_NGeorge_SSmith.ipynb, ETLMiniProjectConstants.py, PyConstants.py, PyFunctions.py, PyLogConstants.py, PyLogFunctions.py, PyLogSubRoutines.py, PySubRoutines.py
 Input files: crowdfunding.xlsx, contacts.xlsx
@@ -75,12 +80,30 @@ Software:  Jupyter Notebook, Python 3.11.4, Quick DBD - free DBD canvas, pgadmin
 
 ----
 
-# GitHub Repository Branches
+## GitHub Repository Branches
+
+----
+
 The deliverables for Project 2, Crowdfunding ETL, are in this GitHub repository as follows.  
 
-main branch  
+main branch 
+|&rarr; [./ETLMiniProjectConstants.py](./ETLMiniProjectConstants.py)  
+|&rarr; [./ETLMiniProject_NGeorge_SSmith.ipynb](./ETLMiniProject_NGeorge_SSmith.ipynb)
+|&rarr; [./PyConstants.py](./PyConstants.py)  
+|&rarr; [./PyFunctions.py](./PyFunctions.py)
+|&rarr; [./PyLogConstants.py](./PyLogConstants.py)
+|&rarr; [./PyLogFunctions.py](./PyLogFunctions.py)
+|&rarr; [./PyLogSubRoutines.py](./PyLogSubRoutines.py)
+|&rarr; [./PySubRoutines.py](./PySubRoutines.py)
+|&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
+|&rarr; [./README.md](./README.md)
+
+ &emsp; |&rarr; [./Data/crowdfunding_db_relationships.png](./Data/crowdfunding_db_relationships.png)  
+
+
+
 |&rarr; [./README.md](./README.md)  
-|&rarr; [./Extract_Transform_final_code.ipynb](./Extract_Transform_final_code.ipynb)  
+
 |&rarr; [./ETL_Practice.ipynb](./ETL_Practice.ipynb)  
 |&rarr; [./Resources.zip](./Resources.zip)  
 |&rarr; ./Queries/  

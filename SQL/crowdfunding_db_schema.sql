@@ -25,16 +25,16 @@ DROP TABLE IF EXISTS category;
 
 -- These statements create the database tables for the ETL pipeline.
 CREATE TABLE 
-	category
-	    (category_id VARCHAR(10),
-	     category VARCHAR(50) NOT NULL,
-            	PRIMARY KEY (category_id));
+    category
+        (category_id VARCHAR(10),
+	 category VARCHAR(50) NOT NULL,
+             PRIMARY KEY (category_id));
 
 CREATE TABLE 
-	subcategory
-	    (subcategory_id VARCHAR(15),
-	     subcategory VARCHAR(50) NOT NULL,
-            	PRIMARY KEY (subcategory_id));
+    subcategory
+        (subcategory_id VARCHAR(15),
+	 subcategory VARCHAR(50) NOT NULL,
+             PRIMARY KEY (subcategory_id));
 
 CREATE TABLE 
     contacts 
@@ -42,11 +42,11 @@ CREATE TABLE
  	 first_name VARCHAR(40) NOT NULL,
          last_name VARCHAR(40) NOT NULL,
          email VARCHAR(100) NOT NULL,
-	        PRIMARY KEY (contact_id));
+	     PRIMARY KEY (contact_id));
 
 CREATE TABLE 
     campaign
-	(cf_id SERIAL,
+        (cf_id SERIAL,
 	 contact_id SERIAL NOT NULL,
          company_name VARCHAR(100) NOT NULL,
          description TEXT NOT NULL,
@@ -60,10 +60,10 @@ CREATE TABLE
          end_date DATE NOT NULL,
          category_id VARCHAR(10) NOT NULL,
          subcategory_id VARCHAR(15) NOT NULL,
-		PRIMARY KEY (cf_id),
-        	FOREIGN KEY (contact_id)
-                	REFERENCES contacts (contact_id),
-	        FOREIGN KEY (category_id) 
-                	REFERENCES category (category_id),
-            	FOREIGN KEY (subcategory_id) 
-                	REFERENCES subcategory (subcategory_id));
+	     PRIMARY KEY (cf_id),
+             FOREIGN KEY (contact_id)
+                 REFERENCES contacts (contact_id),
+	     FOREIGN KEY (category_id) 
+                 REFERENCES category (category_id),
+	     FOREIGN KEY (subcategory_id) 
+                 REFERENCES subcategory (subcategory_id));

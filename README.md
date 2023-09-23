@@ -25,7 +25,7 @@ First, the Python Script, ETLMiniProject_NGeorge_SSmith.ipynb, reads MS Excel fi
 
 To create the Campaign DataFrame, the script takes the Crowdfunding DataFrame, reformats integers representing seconds since January 1, 1971, to a date format, merges the DataFrame with the Category and Subcategory DataFrames, and drops any unwanted columns.
 
-The process is similar for the Contacts DataFrame except that much more data is fused together in a single Excel column and must be extracted (see below).
+The process is similar for the Contacts DataFrame except that much more data is fused together in a single Excel column (see below).
 
 Snapshots of the transformation of the contacts data set:
 
@@ -40,13 +40,21 @@ After finishing these transformations, the script writes the DataFrames to four 
 
 ## <ins>Load</ins>
 
+After studying the structure of the four CSV files, we design our database table schemata and visualize them in an Entity-Relationship Diagram (ERD) using Quick DBD.
+
 A snapshot of the Postgres Database's Entity-Relationship Diagram:
 
 <img width="1369" alt="Screenshot 2023-09-23 at 12 32 42 AM" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/b35c4911-f314-4884-8f3e-71d8910611d2">
 
-In order to load the cleaned datasets as CSV files into an SQL database we started by creating an Entity Relationship Diagram (ERD) using Quick DBD website (https://www.quickdatabasediagrams.com/).
+From the ERD, we write an SQL script and run it with pgAdmin4's Query Tool before using pgamdin4 again to import the data from the CSV files.
 
-When the database schema is complete, we have saved the ERD as crowdfunding_db_relationships.png (See Fig.1) and we have saved the database schema as a PostgreSQL file named crowdfunding_db_schema.sql (https://github.com/MireyNM/Crowdfunding-ETL/blob/main/crowdfunding_db_schema.sql)
+<img width="688" alt="PostgresDBTable_category" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/4496bce8-53eb-406e-9091-1fb0dd5aa9b5">
+
+<img width="494" alt="PostgresDBTable_subcategory" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/d07b5b04-9ae0-429d-b547-db4f1b3d0aec">
+
+<img width="772" alt="PostgresDBTable_contacts" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/b7eb58ec-937a-44f6-b209-9cd10b8040c5">
+
+<img width="2036" alt="PostgresDBTable_campaign" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/1d3dc4ad-8c76-4f90-9687-203144fe6428">
 
 ## <ins>Conclusion</ins>
 

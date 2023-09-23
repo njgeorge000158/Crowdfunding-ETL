@@ -4,7 +4,7 @@
 ----
 ## <ins>Introduction</ins>
 
-For this Extract, Transform, and Load (ETL) project, we build an ETL pipeline using Python, Pandas, and regular expressions to extract and transform a crowdfunding data set from two Excel files; after the transformation, a Python script in a Jupyter Notebook loads the data into four CSV files.  These files form the basis of an SQL script and Entity Relationship Diagram (ERD) detailing the database table schemata.  Finally, we use our SQL script and the Query Tool in the administration and development platform, pgadmin4, to create the database tables and upload the CSV file data into a Postgres database.
+For this Extract, Transform, and Load (ETL) mini project, we build an ETL pipeline using Python, Pandas, and regular expressions to extract and transform a crowdfunding data set from two Excel files; after the transformation, a Python script in a Jupyter Notebook loads the data into four CSV files.  These files form the basis of an SQL script and Entity Relationship Diagram (ERD) detailing the database table schemata.  Finally, we use our SQL script and the Query Tool in the administration and development platform, pgadmin4, to create the database tables and upload the CSV file data into a Postgres database. Consequently, the project has four parts: Category and Subcategory DataFrames, Campaign DataFrame, Contacts DataFrame, and Crownfunding Database.
 
 ## <ins>Extract</ins>
 
@@ -16,7 +16,18 @@ A snapshot of the contacts data set initially loaded into a DataFrame:
 
 ![ETLMiniProjectTable311InitialContactsDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/f0d6b80f-ea60-404a-8b23-b03eca2ae0d3)
 
+First, the Python Script, ETLMiniProject_NGeorge_SSmith.ipynb, reads MS Excel files, crowdfunding.xlsx and contacts.xlsx, into Pandas DataFrames using the DataFrame method, read_excel.  This method allows us to set data types upon extraction through a predefined Dictionary, which precludes the need to explicitly changing data types later with other methods (e.g., astype).  From the Crowdfunding DataFrame, the script finds the unique values for category and subcategory mixed together in a single column, extracts, separates, and sorts them into Lists, and eventually assigns them to individual DataFrames with associated sequential indices.
+
 ## <ins>Transform</ins>
+
+To create the Campaign DataFrame, the script takes the Crowdfunding DataFrame, reformats integers representing seconds since January 1, 1971, to a easily recognizable date format, merges the DataFrame with the Category and Subcategory DataFrames, and drops any unwanted columns.
+
+The process is similar for the Contacts DataFrame except that much more data is fused together in a single Excel column and must be extracted (see below).
+
+Using Python, Pandas, and data cleaning strategies, we have transformed the data via formatting, splitting, converting data types, and restructuring to create DataFrames that can be loaded into a postgreSQL database as a CSV file.
+
+Snapshots of the transformation of the contacts data set:
+
 ![ETLMiniProjectTable321UpdatedContactsDataFramewithContactID](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/6b8ecf71-d806-45f8-aa9f-09bb711ef7e4)
 ![ETLMiniProjectTable324UpdatedContactsDataFrameWithName](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/32608a58-aaee-4e70-946b-f3917368650a)
 ![ETLMiniProjectTable325UpdatedContactsDataFrameWithEmail](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/a23236fb-e8ee-4548-87bb-41943cc0bfda)
@@ -24,15 +35,7 @@ A snapshot of the contacts data set initially loaded into a DataFrame:
 ![ETLMiniProjectTable332TransformedContactsDataFrameWithFirstandLastNames](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/b85c4ee8-4262-43d9-8e95-22323adf9e20)
 ![ETLMiniProjectTable341CleanContactsDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/7c8fd19e-3335-447a-a16b-c81519a1efa3)
 
-Using Python, Pandas, and data cleaning strategies, we have transformed the data via formatting, splitting, converting data types, and restructuring to create DataFrames that can be loaded into a postgreSQL database as a CSV file.
-
-When finishing this step, we have 5 CSV cleaned files saved as:
-
-contacts.csv
-category.csv
-subcategory.csv
-capaign.csv
-
+After finishing these transformations, the script writes the DataFrames to four CSV files: category.csv, subcategory.csv, campaign.csv, and contacts.csv
 
 ## <ins>Load</ins>
 

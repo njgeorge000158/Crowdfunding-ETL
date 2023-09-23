@@ -4,7 +4,7 @@
 ----
 ## <ins>Introduction</ins>
 
-For this Extract, Transform, and Load (ETL) mini project, we build an ETL pipeline using Python, Pandas, and regular expressions to process a crowdfunding data set from two Excel files; after the transformation, a Python script writes the transformed data into four CSV files.  These files form the basis of an SQL script and Entity Relationship Diagram (ERD) detailing the database table schemata.  Finally, we use our SQL script and the Query Tool in the administration and development platform, pgadmin4, to create the database tables and upload the CSV file data into a Postgres database. Consequently, the project has four parts: Category and Subcategory DataFrames, Campaign DataFrame, Contacts DataFrame, and Crownfunding Database.
+For this Extract, Transform, and Load (ETL) mini project, we build an ETL pipeline using Python, Pandas, and regular expressions to process a crowdfunding data set from two Excel files; after the transformation, a Python script writes the transformed data into four CSV files.  These files form the basis of an Entity Relationship Diagram (ERD) detailing the database table schemata and, subsequently, an SQL script for creating the database tables.  Finally, we use our SQL script and the Query Tool in the administration and development platform, pgadmin4, to create the database tables and upload the CSV file data into a Postgres database. Consequently, the project has four parts: Category and Subcategory DataFrames, Campaign DataFrame, Contacts DataFrame, and Crownfunding Database.
 
 ## <ins>Extract</ins>
 

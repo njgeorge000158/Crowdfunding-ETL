@@ -122,7 +122,7 @@ The deliverables for Project 2, Crowdfunding ETL, are in this GitHub repository 
 
 |&rarr; [./README.md](./README.md)
 
-|&rarr; ./Images/
+|&rarr; [./Images/](./Images/)
 
 &emsp; |&rarr; [./Images/ETLMiniProjectTable111InitialCrowdfundingDataFrame.png](./Images/ETLMiniProjectTable111InitialCrowdfundingDataFrame.png)
 &emsp; |&rarr; [./Images/ETLMiniProjectTable113CrowdfundingDataFrameDescription.png](./Images/ETLMiniProjectTable113CrowdfundingDataFrameDescription.png)

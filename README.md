@@ -4,6 +4,7 @@
 ----
 ## Introduction:
 
+For this Extract, Transform, and Load (ETL) project, we build an ETL pipeline using Python, Pandas, and regular expressions to extract and transform a crowdfunding data set from two Excel files; after the transformation, the Python script loads the data into four CSV files.  These files form the basis of a SQL script and Entity Relationship Diagram (ERD) detailing the database table schema.  Finally, we use our SQL script and the Query Tool in the administration and development platform, pgadmin4, to create the database tables and upload the CSV file data into a Postgres database.
 
 ## Extract:
 ![ETLMiniProjectTable111InitialCrowdfundingDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/4f67c4fa-6e27-4e65-ac28-e62508ca6525)

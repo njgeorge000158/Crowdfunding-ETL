@@ -203,7 +203,7 @@ Jupyter Notebook, Python 3.11.4, Quick DBD - free DBD canvas, pgadmin4, Postgres
 
   &emsp; |&rarr; [./SQL/PostgresDBTable_subcategory.png](./SQL/PostgresDBTable_subcategory.png)
 
-  &emsp; |&rarr; [./SQL/Project2Group8EntityRelationshipDiagram.png (./SQL/Project2Group8EntityRelationshipDiagram.png)
+  &emsp; |&rarr; [./SQL/Project2Group8EntityRelationshipDiagram.png](./SQL/Project2Group8EntityRelationshipDiagram.png)
 
   &emsp; |&rarr; [./SQL/README.md](./SQL/README.md)
 

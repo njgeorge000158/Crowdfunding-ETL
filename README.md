@@ -35,6 +35,9 @@ capaign.csv
 
 
 ## <ins>Load</ins>
+
+A snapshot of the Postgres Database's Entity-Relationship Diagram:
+
 <img width="1369" alt="Screenshot 2023-09-23 at 12 32 42 AM" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/b35c4911-f314-4884-8f3e-71d8910611d2">
 
 In order to load the cleaned datasets as CSV files into an SQL database we started by creating an Entity Relationship Diagram (ERD) using Quick DBD website (https://www.quickdatabasediagrams.com/).

@@ -27,8 +27,6 @@ To create the Campaign DataFrame, the script takes the Crowdfunding DataFrame, r
 
 The process is similar for the Contacts DataFrame except that much more data is fused together in a single Excel column and must be extracted (see below).
 
-Using Python, Pandas, and data cleaning strategies, we have transformed the data via formatting, splitting, converting data types, and restructuring to create DataFrames that can be loaded into a postgreSQL database as a CSV file.
-
 Snapshots of the transformation of the contacts data set:
 
 ![ETLMiniProjectTable321UpdatedContactsDataFramewithContactID](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/6b8ecf71-d806-45f8-aa9f-09bb711ef7e4)

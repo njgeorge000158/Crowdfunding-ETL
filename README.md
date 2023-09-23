@@ -23,7 +23,7 @@ To begin, the Python Script in the IPython Notebook, ETLMiniProject_NGeorge_SSmi
 
 ## <ins>Transform</ins>
 
-Next, the Python script takes the Crowdfunding DataFrame, reformats integers representing seconds since January 1, 1971, to a date format, merges the DataFrame with the Category and Subcategory DataFrames, and drops any unwanted columns to create the Campaign DataFrame.
+Next, the Python script takes the Crowdfunding DataFrame, reformats integers representing seconds since January 1, 1971, to a date format, merges the DataFrame with the Category and Subcategory DataFrames, drops any unwanted columns, and reorders the remaining ones to create the Campaign DataFrame.
 
 The process is similar for the Contacts DataFrame except that much more data is fused together in a single Excel column (see below).
 

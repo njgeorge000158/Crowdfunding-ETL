@@ -23,7 +23,7 @@ First, the Python Script, ETLMiniProject_NGeorge_SSmith.ipynb, reads MS Excel fi
 
 ## <ins>Transform</ins>
 
-To create the Campaign DataFrame, the script takes the Crowdfunding DataFrame, reformats integers representing seconds since January 1, 1971, to a easily recognizable date format, merges the DataFrame with the Category and Subcategory DataFrames, and drops any unwanted columns.
+To create the Campaign DataFrame, the script takes the Crowdfunding DataFrame, reformats integers representing seconds since January 1, 1971, to a date format, merges the DataFrame with the Category and Subcategory DataFrames, and drops any unwanted columns.
 
 The process is similar for the Contacts DataFrame except that much more data is fused together in a single Excel column and must be extracted (see below).
 

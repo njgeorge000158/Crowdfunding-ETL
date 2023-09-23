@@ -16,7 +16,7 @@ A snapshot of the contacts data set initially loaded into a DataFrame:
 
 ![ETLMiniProjectTable311InitialContactsDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/f0d6b80f-ea60-404a-8b23-b03eca2ae0d3)
 
-First, the Python Script, ETLMiniProject_NGeorge_SSmith.ipynb, reads MS Excel files, crowdfunding.xlsx and contacts.xlsx, into Pandas DataFrames using the DataFrame method, read_excel.  This method allows us to set data types upon extraction through a predefined Dictionary, which precludes the need to explicitly changing data types later with other methods (e.g., astype).  From the Crowdfunding DataFrame, the script finds the unique values for category and subcategory mixed together in a single column, extracts, separates, and sorts them into Lists, and eventually assigns them to individual DataFrames with associated sequential indices.
+First, the Python Script, ETLMiniProject_NGeorge_SSmith.ipynb, reads MS Excel files, crowdfunding.xlsx and contacts.xlsx, into Pandas DataFrames using the DataFrame method, read_excel.  This method allows us to set data types upon extraction through a predefined Dictionary, which precludes the need to explicitly changing data types later with other methods (e.g., astype).  From the Crowdfunding DataFrame, the script finds the unique values for category and subcategory mixed together in a single column, extracts, splits, and sorts them into Lists, and eventually assigns them to individual DataFrames with associated sequential indices.
 
 ![ETLMiniProjectTable131CategoryDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/6ccfe277-9d7c-4812-9084-539126667c66)![ETLMiniProjectTable132SubcategoryDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/bc08a267-e89b-4f27-b5c0-5f641c6548b6)
 
@@ -57,6 +57,8 @@ From the ERD, we write an SQL script and run it with pgAdmin4's Query Tool befor
 <img width="2036" alt="PostgresDBTable_campaign" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/1d3dc4ad-8c76-4f90-9687-203144fe6428">
 
 ## <ins>Conclusion</ins>
+
+In summary, this exercise has solid real-world applications as data is often dispersed in inconvenient and incompatible forms.  As such, this project extracts, transforms, and loads crowdfunding data from Excel files into a Postgres database.  To accomplish this feat, the transformation process uses formatting, splitting, converting data types, dropping unwanted columns, and reordering columns, among other practices.  Also, the ERD presents a plan for creating the table schemata with an SQL script; the administration and development platform, pgadmin4, loads the data into the Postgres database.  The importance of learning these techniques cannot be understated as the ETL process is critical to establishing clean, compatible, and accurate data for analysis with any data set.
 
 ----
 

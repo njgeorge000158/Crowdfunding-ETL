@@ -163,7 +163,7 @@ The deliverables for Project 2, Crowdfunding ETL, are in this GitHub repository 
   
   &emsp; |&rarr; [./Images/ETLMiniProjectTable331TransformedContactsDataFrame.png](./Images/ETLMiniProjectTable331TransformedContactsDataFrame.png)
   
-  &emsp; |&rarr [./Images/ETLMiniProjectTable332TransformedContactsDataFrameWithFirstandLastNames.png](./Images/ETLMiniProjectTable332TransformedContactsDataFrameWithFirstandLastNames.png)
+  &emsp; |&rarr; [./Images/ETLMiniProjectTable332TransformedContactsDataFrameWithFirstandLastNames.png](./Images/ETLMiniProjectTable332TransformedContactsDataFrameWithFirstandLastNames.png)
   
   &emsp; |&rarr; [./Images/ETLMiniProjectTable341CleanContactsDataFrame.png](./Images/ETLMiniProjectTable341CleanContactsDataFrame.png)
   
@@ -171,7 +171,7 @@ The deliverables for Project 2, Crowdfunding ETL, are in this GitHub repository 
   
   &emsp; |&rarr; [./Images/README.md](./Images/README.md)
 
-
+|&rarr; [./Logs/](./Logs/)
 
  
 

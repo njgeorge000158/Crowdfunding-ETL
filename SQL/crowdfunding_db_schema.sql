@@ -27,39 +27,39 @@ DROP TABLE IF EXISTS category;
 CREATE TABLE 
     category
         (category_id VARCHAR(10),
-	 category VARCHAR(50) NOT NULL,
+	 category VARCHAR(50)  NOT NULL,
              PRIMARY KEY (category_id));
 
 CREATE TABLE 
     subcategory
         (subcategory_id VARCHAR(15),
-	 subcategory VARCHAR(50) NOT NULL,
+	 subcategory VARCHAR(50)  NOT NULL,
              PRIMARY KEY (subcategory_id));
 
 CREATE TABLE 
     contacts 
         (contact_id SERIAL,
- 	 first_name VARCHAR(40) NOT NULL,
-         last_name VARCHAR(40) NOT NULL,
-         email VARCHAR(100) NOT NULL,
+ 	 first_name VARCHAR(40)  NOT NULL,
+         last_name VARCHAR(40)  NOT NULL,
+         email VARCHAR(100)  NOT NULL,
 	     PRIMARY KEY (contact_id));
 
 CREATE TABLE 
     campaign
         (cf_id SERIAL,
-	 contact_id SERIAL NOT NULL,
-         company_name VARCHAR(100) NOT NULL,
-         description TEXT NOT NULL,
-         goal NUMERIC(12,2) NOT NULL,
-         pledged NUMERIC(12,2) NOT NULL,
-         outcome VARCHAR(12) NOT NULL,
-         backers_count SERIAL NOT NULL,
-         country VARCHAR(4) NOT NULL,
-         currency VARCHAR(6) NOT NULL,
-         launch_date DATE NOT NULL,
-         end_date DATE NOT NULL,
-         category_id VARCHAR(10) NOT NULL,
-         subcategory_id VARCHAR(15) NOT NULL,
+	 contact_id SERIAL  NOT NULL,
+         company_name VARCHAR(100)  NOT NULL,
+         description TEXT  NOT NULL,
+         goal NUMERIC(12,2)  NOT NULL,
+         pledged NUMERIC(12,2)  NOT NULL,
+         outcome VARCHAR(12)  NOT NULL,
+         backers_count SERIAL  NOT NULL,
+         country VARCHAR(4)  NOT NULL,
+         currency VARCHAR(6)  NOT NULL,
+         launch_date DATE  NOT NULL,
+         end_date DATE  NOT NULL,
+         category_id VARCHAR(10)  NOT NULL,
+         subcategory_id VARCHAR(15)  NOT NULL,
 	     PRIMARY KEY (cf_id),
              FOREIGN KEY (contact_id)
                  REFERENCES contacts (contact_id),

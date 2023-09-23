@@ -1,5 +1,5 @@
 # Overview:
-----
+
 The IPython notebook, ETLMiniProject_NGeorge_SSmith.ipynb, requires the following Python scripts with it in the same folder:
 
 ETLMiniProjectConstants.py
@@ -63,9 +63,39 @@ If you have not installed them, here are the instructions:
 If the folders, Resources, Logs, and Images are not present, the IPython notebook will create them.
 
 To place the IPython notebook in log mode, debug mode, or image mode set the parameter for the appropriate subroutine in cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the Logs folder; the same is true in log mode for log information sent to a log file in the same folder. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all the plots to png files and all maps to html files in the Images folder.
+
 ----
-# Resources:
+# Resource Summary:
+
+Source code: ETLMiniProject_NGeorge_SSmith.ipynb, ETLMiniProjectConstants.py, PyConstants.py, PyFunctions.py, PyLogConstants.py, PyLogFunctions.py, PyLogSubRoutines.py, PySubRoutines.py
+Input files: crowdfunding.xlsx, contacts.xlsx
+Output file: category.csv, subcategory.csv, contacts.csv, campaign.csv 
+SQL script: crowdfunding_db_schema.sql
+Software:  Jupyter Notebook, Python 3.11.4, Quick DBD - free DBD canvas, pgadmin4, Postgres 15.4
+
 ----
-Data Source: crowdfunding.xlsx - backer_info.csv
-Software: Python 3.7.13, Jupyter Notebook, SQL, PostgreSQL, pgAdmin 4
-----
+
+# GitHub Repository Branches
+The deliverables for Project 2, Crowdfunding ETL, are in this GitHub repository as follows.  
+
+main branch  
+|&rarr; [./README.md](./README.md)  
+|&rarr; [./Extract_Transform_final_code.ipynb](./Extract_Transform_final_code.ipynb)  
+|&rarr; [./ETL_Practice.ipynb](./ETL_Practice.ipynb)  
+|&rarr; [./Resources.zip](./Resources.zip)  
+|&rarr; ./Queries/  
+  &emsp; |&rarr; [./Queries/crowdfunding_db_schema.sql](./Queries/crowdfunding_db_schema.sql)  
+  &emsp; |&rarr; [./Queries/crowdfunding_SQL_Analysis.sql](./Queries/crowdfunding_SQL_Analysis.sql)  
+|&rarr; ./Data/  
+  &emsp; |&rarr; [./Data/crowdfunding_db_relationships.png](./Data/crowdfunding_db_relationships.png)  
+  &emsp; |&rarr; [./Data/category.csv](./Data/category.csv)  
+  &emsp; |&rarr; [./Data/subcategory.csv](./Data/subcategory.csv)  
+  &emsp; |&rarr; [./Data/contacts.csv](./Data/contacts.csv)  
+  &emsp; |&rarr; [./Data/campaign.csv](./Data/campaign.csv)  
+  &emsp; |&rarr; [./Data/backers.csv](./Data/backers.csv)  
+  &emsp; |&rarr; [./Data/email_contacts_remaining_goal_amount.csv](./Data/email_contacts_remaining_goal_amount.csv)  
+  &emsp; |&rarr; [./Data/email_backers_remaining_goal_amount.csv](./Data/email_backers_remaining_goal_amount.csv)  
+  &emsp; |&rarr; [./Data/backers.png](./Data/backers.png)  
+  &emsp; |&rarr; [./Data/campaign_backers_diff.png](./Data/campaign_backers_diff.png)  
+  &emsp; |&rarr; [./Data/email_contacts_remaining_goal_amount.png](./Data/email_contacts_remaining_goal_amount.png)  
+  &emsp; |&rarr; [./Data/email_backers_remaining_goal_amount.png](./Data/email_backers_remaining_goal_amount.png)  

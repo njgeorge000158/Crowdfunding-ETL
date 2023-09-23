@@ -66,4 +66,4 @@ CREATE TABLE
 	        FOREIGN KEY (category_id) 
                 	REFERENCES category (category_id),
             	FOREIGN KEY (subcategory_id) 
-                		REFERENCES subcategory (subcategory_id));
+                	REFERENCES subcategory (subcategory_id));

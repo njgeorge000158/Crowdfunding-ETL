@@ -72,11 +72,25 @@ To place the IPython notebook in log mode, debug mode, or image mode set the par
 
 ----
 
-Source code: ETLMiniProject_NGeorge_SSmith.ipynb, ETLMiniProjectConstants.py, PyConstants.py, PyFunctions.py, PyLogConstants.py, PyLogFunctions.py, PyLogSubRoutines.py, PySubRoutines.py
-Input files: crowdfunding.xlsx, contacts.xlsx
-Output file: category.csv, subcategory.csv, contacts.csv, campaign.csv 
-SQL script: crowdfunding_db_schema.sql
-Software:  Jupyter Notebook, Python 3.11.4, Quick DBD - free DBD canvas, pgadmin4, Postgres 15.4
+### Source code: 
+
+ETLMiniProject_NGeorge_SSmith.ipynb, ETLMiniProjectConstants.py, PyConstants.py, PyFunctions.py, PyLogConstants.py, PyLogFunctions.py, PyLogSubRoutines.py, PySubRoutines.py
+
+### Input files: 
+
+crowdfunding.xlsx, contacts.xlsx
+
+### Output file: 
+
+category.csv, subcategory.csv, contacts.csv, campaign.csv 
+
+### SQL script: 
+
+crowdfunding_db_schema.sql
+
+### Software:  
+
+Jupyter Notebook, Python 3.11.4, Quick DBD - free DBD canvas, pgadmin4, Postgres 15.4
 
 ----
 
@@ -86,7 +100,8 @@ Software:  Jupyter Notebook, Python 3.11.4, Quick DBD - free DBD canvas, pgadmin
 
 The deliverables for Project 2, Crowdfunding ETL, are in this GitHub repository as follows.  
 
-main branch 
+### main branch 
+
 |&rarr; [./ETLMiniProjectConstants.py](./ETLMiniProjectConstants.py)  
 |&rarr; [./ETLMiniProject_NGeorge_SSmith.ipynb](./ETLMiniProject_NGeorge_SSmith.ipynb)
 |&rarr; [./PyConstants.py](./PyConstants.py)  
@@ -98,9 +113,33 @@ main branch
 |&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
 |&rarr; [./README.md](./README.md)
 
- &emsp; |&rarr; [./Data/crowdfunding_db_relationships.png](./Data/crowdfunding_db_relationships.png)  
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable111InitialCrowdfundingDataFrame.png](./Images/ETLMiniProjectTable111InitialCrowdfundingDataFrame.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable113CrowdfundingDataFrameDescription.png](./Images/ETLMiniProjectTable113CrowdfundingDataFrameDescription.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable114CrowdfundingDataFrameMemoryUsage.png](./Images/ETLMiniProjectTable114CrowdfundingDataFrameMemoryUsage.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable121UpdatedCrowdfundingDataFrame.png](./Images/ETLMiniProjectTable121UpdatedCrowdfundingDataFrame.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable131CategoryDataFrame.png](./Images/ETLMiniProjectTable131CategoryDataFrame.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable132SubcategoryDataFrame.png](./Images/ETLMiniProjectTable132SubcategoryDataFrame.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable211InitialCampaignDataFrame.png](./Images/ETLMiniProjectTable211InitialCampaignDataFrame.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable221CampaignDataFrameWithRenamedColumns.png](./Images/ETLMiniProjectTable221CampaignDataFrameWithRenamedColumns.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable222CampaignDataFrameColumnDataTypes.png](./Images/ETLMiniProjectTable222CampaignDataFrameColumnDataTypes.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable223CampaignDataFrameWithDates.png](./Images/ETLMiniProjectTable223CampaignDataFrameWithDates.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable231MergedCampaignDataFrame.png](./Images/ETLMiniProjectTable231MergedCampaignDataFrame.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable232CleanMergedCampaignDataFrameFinal.png.png](./Images/ETLMiniProjectTable232CleanMergedCampaignDataFrameFinal.png)
+ &emsp; |&rarr; [./Images/ETLMiniProjectTable234CleanMergedCampaignDataFrameDescription.png](./Images/ETLMiniProjectTable234CleanMergedCampaignDataFrameDescription.png)
+[./Images/ETLMiniProjectTable235CleanMergedCampaignDataFrameMemoryUsage.png](./Images/ETLMiniProjectTable235CleanMergedCampaignDataFrameMemoryUsage.png)
+[./Images/ETLMiniProjectTable311InitialContactsDataFrame.png](./Images/ETLMiniProjectTable311InitialContactsDataFrame.png)
+[./Images/ETLMiniProjectTable321UpdatedContactsDataFramewithContactID.png](./Images/ETLMiniProjectTable321UpdatedContactsDataFramewithContactID.png)
+[./Images/ETLMiniProjectTable324UpdatedContactsDataFrameWithName.png](./Images/ETLMiniProjectTable324UpdatedContactsDataFrameWithName.png)
+[./Images/ETLMiniProjectTable325UpdatedContactsDataFrameWithEmail.png](./Images/ETLMiniProjectTable325UpdatedContactsDataFrameWithEmail.png)
+[./Images/ETLMiniProjectTable331TransformedContactsDataFrame.png](./Images/ETLMiniProjectTable331TransformedContactsDataFrame.png)
+[./Images/ETLMiniProjectTable332TransformedContactsDataFrameWithFirstandLastNames.png](./Images/ETLMiniProjectTable332TransformedContactsDataFrameWithFirstandLastNames.png)
+[./Images/ETLMiniProjectTable341CleanContactsDataFrame.png](./Images/ETLMiniProjectTable341CleanContactsDataFrame.png)
+[./Images/ETLMiniProjectTable343CleanContactsDataFrameMemoryUsage.png](./Images/ETLMiniProjectTable343CleanContactsDataFrameMemoryUsage.png)
+[./Images/README.md](./Images/README.md)
 
 
+
+ 
 
 |&rarr; [./README.md](./README.md)  
 

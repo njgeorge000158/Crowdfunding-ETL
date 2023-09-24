@@ -82,23 +82,23 @@ To place the IPython notebook in log mode, debug mode, or image mode set the par
 
 ----
 
-### Source code: 
+#### Source code: 
 
 ETLMiniProject_NGeorge_SSmith.ipynb, ETLMiniProjectConstants.py, PyConstants.py, PyFunctions.py, PyLogConstants.py, PyLogFunctions.py, PyLogSubRoutines.py, PySubRoutines.py
 
-### Input files: 
+#### Input files: 
 
 crowdfunding.xlsx, contacts.xlsx
 
-### Output file: 
+#### Output file: 
 
 category.csv, subcategory.csv, contacts.csv, campaign.csv 
 
-### SQL script: 
+#### SQL script: 
 
 crowdfunding_db_schema.sql
 
-### Software:  
+#### Software:  
 
 Jupyter Notebook, Python 3.11.4, Postgres 15.4
 

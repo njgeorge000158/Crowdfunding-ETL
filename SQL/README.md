@@ -1,3 +1,5 @@
+This folder includes this project's SQL script, images of the populated database tables, and the Entity-Relationship Diagram (ERD) for the Postgres Database.
+
 ----
 
 ## Copyright

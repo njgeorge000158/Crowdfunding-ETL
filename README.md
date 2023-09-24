@@ -2,11 +2,11 @@
 # Crowdfunding ETL Project
 ## Group 8: N. James George, Stephen Smith
 ----
-## <ins>Introduction</ins>
+## <ins>**Introduction**</ins>
 
 For this Extract, Transform, and Load (ETL) mini project, we build an ETL pipeline using Jupyter Notebooks, Python, Pandas, and regular expressions to process a crowdfunding data set from two Excel files; after the transformation, a Python script writes the results to four CSV files.  These files form the basis of an Entity Relationship Diagram (ERD) detailing the database table schemata and, subsequently, an SQL script for creating these database tables.  Finally, we use the Query Tool in the administration and development platform, pgAdmin4, to run the SQL script and load the CSV files into a Postgres Database. 
 
-## <ins>Extract:</ins>
+## <ins>**Extract**</ins>
 
 **A snapshot of the Crowdfunding Data Set loaded into a DataFrame:**
 
@@ -56,7 +56,7 @@ From the ERD, we write an SQL script, crowdfunding_db_schema.sql, taking into ac
 
 <img width="2036" alt="PostgresDBTable_campaign" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/1d3dc4ad-8c76-4f90-9687-203144fe6428">
 
-## <ins>Conclusion</ins>
+## <ins>**Conclusion**</ins>
 
 In summary, this exercise has solid real-world applications as data is often dispersed in a chaotic fashion with inconvenient and incompatible formats. To familiarize us with the appropriate practices, this project extracts, transforms, and loads crowdfunding data from Excel files into a Postgres Database. To accomplish this feat, the transformation process uses Pandas DataFrames to format data, split data, convert data types, drop unwanted columns, and rename and reorder remaining columns, among other practices. What’s more, the ERD visualizes the table schemata design, and the SQL script is the set of instructions for implementing it.  The administration and development platform, pgAdmin4, then creates the tables from the SQL script and loads the data into the Postgres database. Ultimately, the importance of learning these techniques cannot be understated as the ETL process is critical to establishing clean, compatible, and accurate data for analysis purposes.
 

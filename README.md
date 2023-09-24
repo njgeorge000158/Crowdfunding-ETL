@@ -6,7 +6,7 @@
 
 For this Extract, Transform, and Load (ETL) mini project, we build an ETL pipeline using Jupyter Notebooks, Python, Pandas, and regular expressions to process a crowdfunding data set from two Excel files; after the transformation, a Python script writes the results to four CSV files.  These files form the basis of an Entity Relationship Diagram (ERD) detailing the database table schemata and, subsequently, an SQL script for creating these database tables.  Finally, we use the Query Tool in the administration and development platform, pgAdmin4, to run the SQL script and load the CSV files into a Postgres Database. 
 
-## <ins>Extract</ins>
+## <ins>Extract:</ins>
 
 **A snapshot of the Crowdfunding Data Set loaded into a DataFrame:**
 
@@ -21,7 +21,7 @@ To begin, the Python Script in the IPython Notebook, ETLMiniProject_NGeorge_SSmi
 ![ETLMiniProjectTable131CategoryDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/6ccfe277-9d7c-4812-9084-539126667c66)![ETLMiniProjectTable132SubcategoryDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/bc08a267-e89b-4f27-b5c0-5f641c6548b6)
 
 
-## <ins>Transform</ins>
+## <ins>**Transform**</ins>
 
 Next, the Python script takes a copy of the Crowdfunding DataFrame, converts Coordinated Universal Times (UTCs) for launch and end dates to date format (the UTC timestamps are integers representing seconds since January 1, 1971), merges the DataFrame with the Category and Subcategory DataFrames, drops any unwanted columns, and renames and reorders the remaining ones to create the Campaign DataFrame.
 
@@ -38,9 +38,9 @@ The process is similar for the Contacts DataFrame except that all the data is fu
 
 After completing the transformation phase, the script exports the Category, Subcategory, Contacts, and Campaign DataFrames to four CSV files: category.csv, subcategory.csv, contacts.csv, campaign.csv.
 
-## <ins>Load</ins>
+## <ins>**Load**</ins>
 
-After studying the structure of the four CSV files, we design our database table schemata in an Entity-Relationship Diagram (ERD) using Quick DBD defining data types, primary keys, and foreign keys.
+After studying the structure of the four CSV files, we design our database table schemata in an Entity-Relationship Diagram (ERD) using Quick DBD to define data types, primary keys, and foreign keys.
 
 **A snapshot of the Postgres Database's ERD:**
 

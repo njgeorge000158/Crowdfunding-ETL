@@ -42,7 +42,7 @@ After completing the transformation phase, the script writes the DataFrames to f
 
 After studying the structure of the four CSV files, we design our database table schemata and visualize them in an Entity-Relationship Diagram (ERD) using Quick DBD.
 
-A snapshot of the Postgres Database's Entity-Relationship Diagram:
+A snapshot of the Postgres Database's ERD:
 
 <img width="1369" alt="Screenshot 2023-09-23 at 12 32 42 AM" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/b35c4911-f314-4884-8f3e-71d8910611d2">
 

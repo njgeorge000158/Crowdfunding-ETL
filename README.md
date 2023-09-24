@@ -4,13 +4,16 @@
 ----
 ## <ins>Introduction</ins>
 
-For this Extract, Transform, and Load (ETL) mini project, we build an ETL pipeline using Python, Pandas, and regular expressions to process a crowdfunding data set from two Excel files; after the transformation, a Python script writes the results to four CSV files.  These files form the basis of an Entity Relationship Diagram (ERD) detailing the database table schemata and, subsequently, an SQL script for creating these database tables.  Finally, we use the Query Tool in the administration and development platform, pgadmin4, to run the SQL script and load the CSV files into a Postgres Database. 
+For this Extract, Transform, and Load (ETL) mini project, we build an ETL pipeline using Jupyter Notebooks <img src="https://img.shields.io/badge/Jupyter Notebook-inactive.svg?style=flat&logo=Jupyter&logoColor=orange" width="150px">&nbsp;,Python <img src="https://img.shields.io/badge/python-inactive.svg?style=flat&logo=Python&logoColor=yellow" width="80px">&nbsp;, Pandas <img src="https://img.shields.io/badge/pandas-inactive.svg?style=flat&logo=Pandas&logoColor=blueviolet" width="80px">&nbsp;, and regular expressions to process a crowdfunding data set from two Excel files; after the transformation, a Python script writes the results to four CSV files.  These files form the basis of an Entity Relationship Diagram (ERD) detailing the database table schemata and, subsequently, an SQL script for creating these database tables.  Finally, we use the Query Tool in the administration and development platform, pgadmin4, to run the SQL script and load the CSV files into a Postgres Database. 
 
-  * <img src="https://img.shields.io/badge/python-inactive.svg?style=flat&logo=Python&logoColor=yellow" width="80px">&nbsp;<img src="https://img.shields.io/badge/postgres-inactive.svg?style=flat&logo=postgresql&logoColor=blue" width="89px">
   
-  * <img src="https://img.shields.io/badge/Jupyter Notebook-inactive.svg?style=flat&logo=Jupyter&logoColor=orange" width="150px">&nbsp;<img src="https://img.shields.io/badge/Visual Studio Code-inactive.svg?style=flat&logo=Visual Studio Code&logoColor=blue" width="158px">&nbsp;<img src="https://img.shields.io/badge/Microsoft PowerPoint-inactive.svg?style=flat&logo=Microsoft PowerPoint&logoColor=orange" width="172px">
+  * <img src="https://img.shields.io/badge/postgres-inactive.svg?style=flat&logo=Postgresql&logoColor=blue" width="89px">
   
-  * <img src="https://img.shields.io/badge/pandas-inactive.svg?style=flat&logo=pandas&logoColor=blueviolet" width="80px">&nbsp;<img src="https://img.shields.io/badge/NumPy-inactive.svg?style=flat&logo=NumPy&logoColor=blue" width="80px">&nbsp;
+  * 
+    
+  * 
+  
+
 
 
 ## <ins>Extract</ins>

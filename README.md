@@ -46,7 +46,7 @@ A snapshot of the Postgres Database's ERD:
 
 <img width="1369" alt="Screenshot 2023-09-23 at 12 32 42 AM" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/b35c4911-f314-4884-8f3e-71d8910611d2">
 
-From the ERD, we write an SQL script and run it with pgAdmin4's Query Tool before using pgamdin4 again to import the data from the CSV files.
+From the ERD, we write an SQL script and run it with pgAdmin4's Query Tool before using pgAdmin4 again to import the CSV files into the Postgres Database.
 
 <img width="688" alt="PostgresDBTable_category" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/4496bce8-53eb-406e-9091-1fb0dd5aa9b5">
 

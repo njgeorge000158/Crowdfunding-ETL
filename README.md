@@ -27,7 +27,7 @@ Next, the Python script takes the Crowdfunding DataFrame, reformats integers rep
 
 The process is similar for the Contacts DataFrame except that all the data is fused together in a single column requiring step-by-step extrication (see below).
 
-Snapshots of the transformation of the contacts data set:
+Snapshots of the transformation of the Contacts Data Set:
 
 ![ETLMiniProjectTable321UpdatedContactsDataFramewithContactID](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/6b8ecf71-d806-45f8-aa9f-09bb711ef7e4)
 ![ETLMiniProjectTable324UpdatedContactsDataFrameWithName](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/32608a58-aaee-4e70-946b-f3917368650a)

@@ -100,7 +100,7 @@ crowdfunding_db_schema.sql
 
 ### Software:  
 
-Jupyter Notebook, Python 3.11.4, Quick DBD - free DBD canvas, pgadmin4, Postgres 15.4
+Jupyter Notebook, Python 3.11.4, Quick DBD - free DBD canvas, Postgres 15.4, pgAdmin4, 
 
 ----
 

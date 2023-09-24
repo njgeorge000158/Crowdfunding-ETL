@@ -3,7 +3,7 @@
 
 ----
 
-## Overview:
+## Usage:
 
 ----
 
@@ -23,17 +23,25 @@ PyLogSubRoutines.py
 
 PySubroutines.py
 
+If the folders, Resources, Logs, and Images are not present, the IPython notebook will create them.  The Resources folder holds input and output files from the IPython Notebook; the Logs folder contains debug and log files from testing the IPython Notebook; the Images folder has the PNG image files of the IPython Notebook's tables and plots; and the SQL folder includes SQL scripts, Entity-Relationship Diagrams, and images of quey results.
+
+To place the IPython notebook in log mode, debug mode, or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the Logs folder; the same is true in log mode for log information sent to a log file in the same folder. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all the tables, hvplot, and matplotlib plots to png files in the Images folder.
+
+----
+
+## Installation:
+
+----
+
 If the computer has Anaconda, Jupyter Notebook, and a recent version of Python, the IPython notebook already has the following dependencies installed: datetime, io, json, matplotlib, numpy, pandas, pathlib, os, pandas, requests, requests_html, scipy.
 
-In addition to those modules, the IPython notebook needs the following to execute: holoviews, hvplot, panel, geoviews, geopy, aspose-words, dataframe-image.
+In addition to those modules, the IPython notebook requires the following due to the additional modules: holoviews, hvplot, geoviews, geopy, aspose-words, dataframe-image.
 
 Here are the requisite Terminal commands for installation of these peripheral modules:
 
 python3 -m pip install holoviews
 
 python3 -m pip install hvplot
-
-python3 -m pip install panel
 
 python3 -m pip install geoviews
 
@@ -42,6 +50,7 @@ python3 -m pip install geopy
 python3 -m pip install aspose-words
 
 python3 -m pip install dataframe-image
+
 
 The SQL script, crowdfunding_db_schema.sql, for database table creation is in the SQL folder and requires the installation of PostgreSQL and pdAdmin to run. 
 
@@ -67,10 +76,6 @@ If you have not installed them, here are the instructions:
 
 * To confirm the installation, start pgAdmin (it will open in a new browser window). Connect to the default server by clicking on it and entering the password if prompted.
   
-If the folders, Resources, Logs, and Images are not present, the IPython notebook will create them.
-
-To place the IPython notebook in log mode, debug mode, or image mode set the parameter for the appropriate subroutine in cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the Logs folder; the same is true in log mode for log information sent to a log file in the same folder. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all the plots to png files and all maps to html files in the Images folder.
-
 ----
 
 ## Resource Summary:

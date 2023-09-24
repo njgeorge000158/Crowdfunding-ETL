@@ -40,7 +40,7 @@ After completing the transformation phase, the script exports the Category, Subc
 
 ## <ins>Load</ins>
 
-After studying the structure of the four CSV files, we design our database table schemata defining data types, primary keys, and foreign keys in an Entity-Relationship Diagram (ERD) using Quick DBD.
+After studying the structure of the four CSV files, we design our database table schemata in an Entity-Relationship Diagram (ERD) using Quick DBD defining data types, primary keys, and foreign keys.
 
 A snapshot of the Postgres Database's ERD:
 

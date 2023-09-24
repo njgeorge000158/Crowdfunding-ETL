@@ -23,7 +23,7 @@ To begin, the Python Script in the IPython Notebook, ETLMiniProject_NGeorge_SSmi
 
 ## <ins>Transform</ins>
 
-Next, the Python script takes the Crowdfunding DataFrame, reformats integers representing seconds since January 1, 1971, to a date format, merges the DataFrame with the Category and Subcategory DataFrames, drops any unwanted columns, and reorders the remaining ones to create the Campaign DataFrame.
+Next, the Python script takes the Crowdfunding DataFrame, converts Coordinated Universal Times (UTC) for launch and end dates to date format -- the UTC timestamps are integers representing seconds since January 1, 1971 -- merges the DataFrame with the Category and Subcategory DataFrames, drops any unwanted columns, and renames and reorders the remaining ones to create the Campaign DataFrame.
 
 The process is similar for the Contacts DataFrame except that all the data is fused together in a single column requiring step-by-step extrication with regular expressions (see below).
 
@@ -36,7 +36,7 @@ Snapshots of the transformation of the Contacts Data Set:
 ![ETLMiniProjectTable332TransformedContactsDataFrameWithFirstandLastNames](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/b85c4ee8-4262-43d9-8e95-22323adf9e20)
 ![ETLMiniProjectTable341CleanContactsDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/7c8fd19e-3335-447a-a16b-c81519a1efa3)
 
-After completing the transformation phase, the script writes the DataFrames to four CSV files: category.csv, subcategory.csv, campaign.csv, and contacts.csv
+After completing the transformation phase, the script exports the Category, Subcategory, Contacts, and Campaign DataFrames to four CSV files: category.csv, subcategory.csv, campaign.csv, and contacts.csv
 
 ## <ins>Load</ins>
 

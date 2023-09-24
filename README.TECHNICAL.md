@@ -238,3 +238,13 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
 [PostgresSQL Documentation](https://www.postgresql.org/docs/) \
 
 [The Complete Guide to Regular Expressions](https://coderpad.io/blog/development/the-complete-guide-to-regular-expressions-regex/) \
+
+----
+
+## Authors and acknowledgment
+
+----
+
+## Copyright
+
+N. James George, Stephen Smith © 2023. All Rights Reserved.

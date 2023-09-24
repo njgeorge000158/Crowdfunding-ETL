@@ -1,4 +1,4 @@
-# _Crowdfunding ETL Project_
+# **Crowdfunding ETL Project**
 
 ----
 
@@ -77,7 +77,7 @@ To place the IPython notebook in log mode, debug mode, or image mode set the par
 
 ----
 
-### Resource Summary:
+### **Resource Summary:**
 
 ----
 
@@ -89,7 +89,7 @@ ETLMiniProject_NGeorge_SSmith.ipynb, ETLMiniProjectConstants.py, PyConstants.py,
 
 crowdfunding.xlsx, contacts.xlsx
 
-#### Output file
+#### **Output file**
 
 category.csv, subcategory.csv, contacts.csv, campaign.csv 
 
@@ -105,7 +105,7 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
 
 ----
 
-### GitHub Repository Branches:
+### **GitHub Repository Branches:**
 
 ----
 
@@ -222,7 +222,7 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
 
 ----
 
-### References:
+### **References:**
 
 ----
 
@@ -240,7 +240,7 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
 
 ----
 
-### Authors and acknowledgment:
+### **Authors and Acknowledgment:**
 
 ----
 

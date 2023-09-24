@@ -36,7 +36,7 @@ Snapshots of the transformation of the Contacts Data Set:
 ![ETLMiniProjectTable332TransformedContactsDataFrameWithFirstandLastNames](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/b85c4ee8-4262-43d9-8e95-22323adf9e20)
 ![ETLMiniProjectTable341CleanContactsDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/7c8fd19e-3335-447a-a16b-c81519a1efa3)
 
-After finishing these transformations, the script writes the DataFrames to four CSV files: category.csv, subcategory.csv, campaign.csv, and contacts.csv
+After completing the transformation phase, the script writes the DataFrames to four CSV files: category.csv, subcategory.csv, campaign.csv, and contacts.csv
 
 ## <ins>Load</ins>
 

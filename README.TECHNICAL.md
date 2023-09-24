@@ -8,7 +8,7 @@
 
 If the computer has Anaconda, Jupyter Notebook, and a recent version of Python, the IPython notebook already has the following dependencies installed: datetime, io, json, matplotlib, numpy, pandas, pathlib, os, pandas, requests, requests_html, scipy.
 
-In addition to those modules, the IPython notebook requires the following due to the additional modules: holoviews, hvplot, geoviews, geopy, aspose-words, dataframe-image.
+In addition to those modules, the IPython notebook requires the following additional modules: holoviews, hvplot, geoviews, geopy, aspose-words, dataframe-image.
 
 Here are the requisite Terminal commands for installation of these peripheral modules:
 

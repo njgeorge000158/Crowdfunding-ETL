@@ -73,7 +73,7 @@ PySubroutines.py
 
 If the folders, Resources, Logs, and Images are not present, the IPython notebook will create them.  The Resources folder holds input and output files from the IPython Notebook; the Logs folder contains debug and log files from testing the IPython Notebook; the Images folder has the PNG image files of the IPython Notebook's tables and plots; and the SQL folder includes SQL scripts, Entity-Relationship Diagrams, and images of query results.
 
-To place the IPython notebook in log mode, debug mode, or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the Logs folder; the same is true in log mode for log information sent to a log file in the same folder. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all the tables, hvplot, and matplotlib plots to png files in the Images folder.
+To place the IPython notebook in log mode, debug mode, or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the Logs folder; the same is true in log mode for log information sent to a log file. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all DataFrames, hvplot maps, and matplotlib plots to png files in the Images folder.
 
 ----
 

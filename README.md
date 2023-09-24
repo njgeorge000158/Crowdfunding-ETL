@@ -46,7 +46,7 @@ After studying the four CSV files, we design our database table schemata in an E
 
 <img width="1369" alt="Screenshot 2023-09-23 at 12 32 42 AM" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/b35c4911-f314-4884-8f3e-71d8910611d2">
 
-From the ERD, we write an SQL script, crowdfunding_db_schema.sql, taking into account the order of tables from foreign keys and run it with pgAdmin4's Query Tool before using pgAdmin4 again to import the CSV files into the Postgres Database, crowdfunding_db.
+From the ERD and taking into account the order of tables from foreign keys, we write an SQL script, crowdfunding_db_schema.sql, and run it with pgAdmin4's Query Tool before using pgAdmin4 again to import the CSV files into the Postgres Database, crowdfunding_db.
 
 <img width="688" alt="PostgresDBTable_category" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/4496bce8-53eb-406e-9091-1fb0dd5aa9b5">
 

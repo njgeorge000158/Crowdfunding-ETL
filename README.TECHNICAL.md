@@ -1,9 +1,8 @@
 # Crowdfunding ETL Project
-## Group 8: N. James George, Stephen Smith
 
 ----
 
-## Installation:
+### Installation:
 
 ----
 
@@ -52,7 +51,7 @@ If you have not installed them, here are the instructions:
   
 ----
 
-## Usage:
+### Usage:
 
 ----
 
@@ -78,7 +77,7 @@ To place the IPython notebook in log mode, debug mode, or image mode set the par
 
 ----
 
-## Resource Summary:
+### Resource Summary:
 
 ----
 
@@ -106,11 +105,11 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
 
 ----
 
-## GitHub Repository Branches
+### GitHub Repository Branches
 
 ----
 
-### main branch 
+#### main branch 
 
 |&rarr; [./ETLMiniProjectConstants.py](./ETLMiniProjectConstants.py)
 
@@ -223,7 +222,7 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
 
 ----
 
-## References
+### References
 
 ----
 
@@ -241,10 +240,10 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
 
 ----
 
-## Authors and acknowledgment
+### Authors and acknowledgment
 
 ----
 
-## Copyright
+### Copyright
 
 N. James George, Stephen Smith © 2023. All Rights Reserved.

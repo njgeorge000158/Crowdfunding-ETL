@@ -3,32 +3,6 @@
 
 ----
 
-## Usage:
-
-----
-
-The IPython notebook, ETLMiniProject_NGeorge_SSmith.ipynb, requires the following Python scripts with it in the same folder:
-
-ETLMiniProjectConstants.py
-
-PyConstants.py
-
-PyFunctions.py
-
-PyLogConstants.py
-
-PyLogFunctions.py
-
-PyLogSubRoutines.py
-
-PySubroutines.py
-
-If the folders, Resources, Logs, and Images are not present, the IPython notebook will create them.  The Resources folder holds input and output files from the IPython Notebook; the Logs folder contains debug and log files from testing the IPython Notebook; the Images folder has the PNG image files of the IPython Notebook's tables and plots; and the SQL folder includes SQL scripts, Entity-Relationship Diagrams, and images of quey results.
-
-To place the IPython notebook in log mode, debug mode, or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the Logs folder; the same is true in log mode for log information sent to a log file in the same folder. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all the tables, hvplot, and matplotlib plots to png files in the Images folder.
-
-----
-
 ## Installation:
 
 ----
@@ -78,6 +52,32 @@ If you have not installed them, here are the instructions:
   
 ----
 
+## Usage:
+
+----
+
+The IPython notebook, ETLMiniProject_NGeorge_SSmith.ipynb, requires the following Python scripts with it in the same folder:
+
+ETLMiniProjectConstants.py
+
+PyConstants.py
+
+PyFunctions.py
+
+PyLogConstants.py
+
+PyLogFunctions.py
+
+PyLogSubRoutines.py
+
+PySubroutines.py
+
+If the folders, Resources, Logs, and Images are not present, the IPython notebook will create them.  The Resources folder holds input and output files from the IPython Notebook; the Logs folder contains debug and log files from testing the IPython Notebook; the Images folder has the PNG image files of the IPython Notebook's tables and plots; and the SQL folder includes SQL scripts, Entity-Relationship Diagrams, and images of quey results.
+
+To place the IPython notebook in log mode, debug mode, or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the Logs folder; the same is true in log mode for log information sent to a log file in the same folder. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all the tables, hvplot, and matplotlib plots to png files in the Images folder.
+
+----
+
 ## Resource Summary:
 
 ----
@@ -103,7 +103,6 @@ crowdfunding_db_schema.sql
 Jupyter Notebook, Python 3.11.4, Postgres 15.4
 
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-
 
 ----
 

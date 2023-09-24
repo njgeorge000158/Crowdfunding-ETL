@@ -12,7 +12,7 @@ For this Extract, Transform, and Load (ETL) mini project, we build an ETL pipeli
 
 ![ETLMiniProjectTable111InitialCrowdfundingDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/4f67c4fa-6e27-4e65-ac28-e62508ca6525)
 
-A snapshot of the Contacts Data Set loaded into a DataFrame:
+**A snapshot of the Contacts Data Set loaded into a DataFrame:**
 
 ![ETLMiniProjectTable311InitialContactsDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/f0d6b80f-ea60-404a-8b23-b03eca2ae0d3)
 
@@ -27,7 +27,7 @@ Next, the Python script takes a copy of the Crowdfunding DataFrame, converts Coo
 
 The process is similar for the Contacts DataFrame except that all the data is fused together in a single column requiring step-by-step extrication with regular expressions (see below).
 
-Snapshots of the Contacts Data Set transformation:
+**Snapshots of the Contacts Data Set transformation:**
 
 ![ETLMiniProjectTable321UpdatedContactsDataFramewithContactID](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/6b8ecf71-d806-45f8-aa9f-09bb711ef7e4)
 ![ETLMiniProjectTable324UpdatedContactsDataFrameWithName](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/32608a58-aaee-4e70-946b-f3917368650a)
@@ -42,7 +42,7 @@ After completing the transformation phase, the script exports the Category, Subc
 
 After studying the structure of the four CSV files, we design our database table schemata in an Entity-Relationship Diagram (ERD) using Quick DBD defining data types, primary keys, and foreign keys.
 
-A snapshot of the Postgres Database's ERD:
+**A snapshot of the Postgres Database's ERD:**
 
 <img width="1369" alt="Screenshot 2023-09-23 at 12 32 42 AM" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/b35c4911-f314-4884-8f3e-71d8910611d2">
 

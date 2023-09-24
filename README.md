@@ -23,7 +23,7 @@ To begin, the Python Script in the IPython Notebook, ETLMiniProject_NGeorge_SSmi
 
 ## <ins>Transform</ins>
 
-Next, the Python script takes the Crowdfunding DataFrame, converts Coordinated Universal Times (UTC) for launch and end dates to date format -- the UTC timestamps are integers representing seconds since January 1, 1971 -- merges the DataFrame with the Category and Subcategory DataFrames, drops any unwanted columns, and renames and reorders the remaining ones to create the Campaign DataFrame.
+Next, the Python script takes the Crowdfunding DataFrame, converts Coordinated Universal Times (UTC) for launch and end dates to date format (the UTC timestamps are integers representing seconds since January 1, 1971), merges the DataFrame with the Category and Subcategory DataFrames, drops any unwanted columns, and renames and reorders the remaining ones to create the Campaign DataFrame.
 
 The process is similar for the Contacts DataFrame except that all the data is fused together in a single column requiring step-by-step extrication with regular expressions (see below).
 
@@ -46,7 +46,7 @@ A snapshot of the Postgres Database's ERD:
 
 <img width="1369" alt="Screenshot 2023-09-23 at 12 32 42 AM" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/b35c4911-f314-4884-8f3e-71d8910611d2">
 
-From the ERD, we write an SQL script and run it with pgAdmin4's Query Tool before using pgAdmin4 again to import the CSV files into the Postgres Database.
+From the ERD, we write an SQL script, crowdfunding_db_schema.sql, and run it with pgAdmin4's Query Tool before using pgAdmin4 again to import the CSV files into the Postgres Database, crowdfunding_db.
 
 <img width="688" alt="PostgresDBTable_category" src="https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/4496bce8-53eb-406e-9091-1fb0dd5aa9b5">
 

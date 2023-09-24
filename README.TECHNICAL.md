@@ -1,3 +1,8 @@
+# Crowdfunding ETL Project
+## Group 8: N. James George, Stephen Smith
+
+----
+
 ## Overview:
 
 ----

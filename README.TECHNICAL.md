@@ -1,4 +1,4 @@
-# Crowdfunding ETL Project
+# _Crowdfunding ETL Project_
 
 ----
 
@@ -51,7 +51,7 @@ If you have not installed them, here are the instructions:
   
 ----
 
-### Usage:
+### **Usage:**
 
 ----
 

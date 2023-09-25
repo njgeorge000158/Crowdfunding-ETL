@@ -155,7 +155,7 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
   
   &emsp; |&rarr; [./Images/ETLMiniProjectTable231MergedCampaignDataFrame.png](./Images/ETLMiniProjectTable231MergedCampaignDataFrame.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable232CleanMergedCampaignDataFrameFinal.png.png](./Images/ETLMiniProjectTable232CleanMergedCampaignDataFrameFinal.png)
+  &emsp; |&rarr; [./Images/ETLMiniProjectTable232CleanMergedCampaignDataFrameFinal.png](./Images/ETLMiniProjectTable232CleanMergedCampaignDataFrameFinal.png)
 
   &emsp; |&rarr; [./Images/ETLMiniProjectTable234CleanMergedCampaignDataFrameDescription.png](./Images/ETLMiniProjectTable234CleanMergedCampaignDataFrameDescription.png)
   

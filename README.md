@@ -22,7 +22,7 @@ To begin, the Python Script in the IPython Notebook, ETLMiniProject_NGeorge_SSmi
 
 ## <ins>**Transform**</ins>
 
-Next, the Python script takes a copy of the Crowdfunding DataFrame, converts Coordinated Universal Times (UTCs) for launch and end dates to date format (the UTC timestamps are integers representing seconds since January 1, 1971), merges the DataFrame with the Category and Subcategory DataFrames, drops any unwanted columns, and renames and reorders the remaining ones to create the Campaign DataFrame.
+Next, the Python script takes a copy of the Crowdfunding DataFrame, converts the launch and end dates to date format from a datetime format, merges the DataFrame with the Category and Subcategory DataFrames, drops any unwanted columns, and renames and reorders the remaining ones to create the Campaign DataFrame.
 
 The process is similar for the Contacts DataFrame except that all the data is fused together in a single column requiring step-by-step extrication with regular expressions (see below).
 

@@ -89,7 +89,7 @@ ETLMiniProject_NGeorge_SSmith.ipynb, ETLMiniProjectConstants.py, PyConstants.py,
 
 crowdfunding.xlsx, contacts.xlsx
 
-#### **Output file**
+#### Output files
 
 category.csv, subcategory.csv, contacts.csv, campaign.csv 
 

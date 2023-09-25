@@ -19,6 +19,8 @@
  #
  #******************************************************************************************/
 
+from datetime import datetime as dt
+
 
 # In[2]:
 
@@ -27,7 +29,7 @@ CONSTANT_LOCAL_FILE_NAME \
     = 'ETLMiniProjectConstants.py'
 
 
-# In[3]:
+# In[ ]:
 
 
 CONSTANT_CROWDFUNDING_FILE_PATH \
@@ -69,10 +71,6 @@ excelCrowdfundingDTypeDictionary \
            str,
        'currency': 
            str,
-       'launched_at': 
-           int,
-       'deadline': 
-           int,
        'staff_pick': 
            bool,
        'spotlight': 
@@ -81,6 +79,12 @@ excelCrowdfundingDTypeDictionary \
            str,
        'Value': 
            float}
+
+excelCrowdfundingConverterDictionary \
+    = {'launched_at': 
+           dt.fromtimestamp,
+       'deadline': 
+           dt.fromtimestamp}
 
 excelContactsDTypeDictionary \
     = {'contact_id': 

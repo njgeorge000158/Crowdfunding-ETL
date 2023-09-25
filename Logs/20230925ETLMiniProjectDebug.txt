@@ -1,5 +1,5 @@
 
-Timepoint: 09/22/2023 11:44:04
+Timepoint: 09/25/2023 14:30:30
 Program execution begins...
 
 
@@ -31,31 +31,31 @@ Program execution begins...
 998           Polarized composite customer loyalty   66600.0   37823.0   
 999                    Expanded eco-centric policy  111100.0   62819.0   
 
-        outcome  backers_count country currency  launched_at    deadline  \
-0        failed              0      CA      CAD   1581573600  1614578400   
-1    successful            158      US      USD   1611554400  1621918800   
-2    successful           1425      AU      AUD   1608184800  1640844000   
-3        failed             24      US      USD   1634792400  1642399200   
-4        failed             53      US      USD   1608530400  1629694800   
-..          ...            ...     ...      ...          ...         ...   
-995  successful           2043      US      USD   1609221600  1622350800   
-996      failed            112      US      USD   1634274000  1638252000   
-997    canceled            139      IT      EUR   1636174800  1639116000   
-998      failed            374      US      USD   1602133200  1618117200   
-999    canceled           1122      US      USD   1609308000  1629262800   
+        outcome  backers_count country currency         launched_at  \
+0        failed              0      CA      CAD 2020-02-12 23:00:00   
+1    successful            158      US      USD 2021-01-24 23:00:00   
+2    successful           1425      AU      AUD 2020-12-16 23:00:00   
+3        failed             24      US      USD 2021-10-20 22:00:00   
+4        failed             53      US      USD 2020-12-20 23:00:00   
+..          ...            ...     ...      ...                 ...   
+995  successful           2043      US      USD 2020-12-28 23:00:00   
+996      failed            112      US      USD 2021-10-14 22:00:00   
+997    canceled            139      IT      EUR 2021-11-05 22:00:00   
+998      failed            374      US      USD 2020-10-07 22:00:00   
+999    canceled           1122      US      USD 2020-12-29 23:00:00   
 
-     staff_pick  spotlight category & sub-category  
-0         False      False        food/food trucks  
-1         False       True              music/rock  
-2         False      False          technology/web  
-3         False      False              music/rock  
-4         False      False           theater/plays  
-..          ...        ...                     ...  
-995       False       True        food/food trucks  
-996       False      False           theater/plays  
-997       False      False           theater/plays  
-998       False       True        music/indie rock  
-999       False      False        food/food trucks  
+               deadline  staff_pick  spotlight category & sub-category  
+0   2021-02-28 23:00:00       False      False        food/food trucks  
+1   2021-05-24 22:00:00       False       True              music/rock  
+2   2021-12-29 23:00:00       False      False          technology/web  
+3   2022-01-16 23:00:00       False      False              music/rock  
+4   2021-08-22 22:00:00       False      False           theater/plays  
+..                  ...         ...        ...                     ...  
+995 2021-05-29 22:00:00       False       True        food/food trucks  
+996 2021-11-29 23:00:00       False      False           theater/plays  
+997 2021-12-09 23:00:00       False      False           theater/plays  
+998 2021-04-10 22:00:00       False       True        music/indie rock  
+999 2021-08-17 22:00:00       False      False        food/food trucks  
 
 [1000 rows x 15 columns]
 
@@ -87,31 +87,31 @@ Program execution begins...
 998           Polarized composite customer loyalty   66600.0   37823.0   
 999                    Expanded eco-centric policy  111100.0   62819.0   
 
-        outcome  backers_count country currency  launched_at    deadline  \
-0        failed              0      CA      CAD   1581573600  1614578400   
-1    successful            158      US      USD   1611554400  1621918800   
-2    successful           1425      AU      AUD   1608184800  1640844000   
-3        failed             24      US      USD   1634792400  1642399200   
-4        failed             53      US      USD   1608530400  1629694800   
-..          ...            ...     ...      ...          ...         ...   
-995  successful           2043      US      USD   1609221600  1622350800   
-996      failed            112      US      USD   1634274000  1638252000   
-997    canceled            139      IT      EUR   1636174800  1639116000   
-998      failed            374      US      USD   1602133200  1618117200   
-999    canceled           1122      US      USD   1609308000  1629262800   
+        outcome  backers_count country currency         launched_at  \
+0        failed              0      CA      CAD 2020-02-12 23:00:00   
+1    successful            158      US      USD 2021-01-24 23:00:00   
+2    successful           1425      AU      AUD 2020-12-16 23:00:00   
+3        failed             24      US      USD 2021-10-20 22:00:00   
+4        failed             53      US      USD 2020-12-20 23:00:00   
+..          ...            ...     ...      ...                 ...   
+995  successful           2043      US      USD 2020-12-28 23:00:00   
+996      failed            112      US      USD 2021-10-14 22:00:00   
+997    canceled            139      IT      EUR 2021-11-05 22:00:00   
+998      failed            374      US      USD 2020-10-07 22:00:00   
+999    canceled           1122      US      USD 2020-12-29 23:00:00   
 
-     staff_pick  spotlight    category  subcategory  
-0         False      False        food  food trucks  
-1         False       True       music         rock  
-2         False      False  technology          web  
-3         False      False       music         rock  
-4         False      False     theater        plays  
-..          ...        ...         ...          ...  
-995       False       True        food  food trucks  
-996       False      False     theater        plays  
-997       False      False     theater        plays  
-998       False       True       music   indie rock  
-999       False      False        food  food trucks  
+               deadline  staff_pick  spotlight    category  subcategory  
+0   2021-02-28 23:00:00       False      False        food  food trucks  
+1   2021-05-24 22:00:00       False       True       music         rock  
+2   2021-12-29 23:00:00       False      False  technology          web  
+3   2022-01-16 23:00:00       False      False       music         rock  
+4   2021-08-22 22:00:00       False      False     theater        plays  
+..                  ...         ...        ...         ...          ...  
+995 2021-05-29 22:00:00       False       True        food  food trucks  
+996 2021-11-29 23:00:00       False      False     theater        plays  
+997 2021-12-09 23:00:00       False      False     theater        plays  
+998 2021-04-10 22:00:00       False       True       music   indie rock  
+999 2021-08-17 22:00:00       False      False        food  food trucks  
 
 [1000 rows x 16 columns]
 
@@ -184,31 +184,31 @@ Program execution begins...
 998           Polarized composite customer loyalty   66600.0   37823.0   
 999                    Expanded eco-centric policy  111100.0   62819.0   
 
-        outcome  backers_count country currency  launched_at    deadline  \
-0        failed              0      CA      CAD   1581573600  1614578400   
-1    successful            158      US      USD   1611554400  1621918800   
-2    successful           1425      AU      AUD   1608184800  1640844000   
-3        failed             24      US      USD   1634792400  1642399200   
-4        failed             53      US      USD   1608530400  1629694800   
-..          ...            ...     ...      ...          ...         ...   
-995  successful           2043      US      USD   1609221600  1622350800   
-996      failed            112      US      USD   1634274000  1638252000   
-997    canceled            139      IT      EUR   1636174800  1639116000   
-998      failed            374      US      USD   1602133200  1618117200   
-999    canceled           1122      US      USD   1609308000  1629262800   
+        outcome  backers_count country currency         launched_at  \
+0        failed              0      CA      CAD 2020-02-12 23:00:00   
+1    successful            158      US      USD 2021-01-24 23:00:00   
+2    successful           1425      AU      AUD 2020-12-16 23:00:00   
+3        failed             24      US      USD 2021-10-20 22:00:00   
+4        failed             53      US      USD 2020-12-20 23:00:00   
+..          ...            ...     ...      ...                 ...   
+995  successful           2043      US      USD 2020-12-28 23:00:00   
+996      failed            112      US      USD 2021-10-14 22:00:00   
+997    canceled            139      IT      EUR 2021-11-05 22:00:00   
+998      failed            374      US      USD 2020-10-07 22:00:00   
+999    canceled           1122      US      USD 2020-12-29 23:00:00   
 
-     staff_pick  spotlight    category  subcategory  
-0         False      False        food  food trucks  
-1         False       True       music         rock  
-2         False      False  technology          web  
-3         False      False       music         rock  
-4         False      False     theater        plays  
-..          ...        ...         ...          ...  
-995       False       True        food  food trucks  
-996       False      False     theater        plays  
-997       False      False     theater        plays  
-998       False       True       music   indie rock  
-999       False      False        food  food trucks  
+               deadline  staff_pick  spotlight    category  subcategory  
+0   2021-02-28 23:00:00       False      False        food  food trucks  
+1   2021-05-24 22:00:00       False       True       music         rock  
+2   2021-12-29 23:00:00       False      False  technology          web  
+3   2022-01-16 23:00:00       False      False       music         rock  
+4   2021-08-22 22:00:00       False      False     theater        plays  
+..                  ...         ...        ...         ...          ...  
+995 2021-05-29 22:00:00       False       True        food  food trucks  
+996 2021-11-29 23:00:00       False      False     theater        plays  
+997 2021-12-09 23:00:00       False      False     theater        plays  
+998 2021-04-10 22:00:00       False       True       music   indie rock  
+999 2021-08-17 22:00:00       False      False        food  food trucks  
 
 [1000 rows x 16 columns]
 
@@ -240,62 +240,62 @@ Program execution begins...
 998           Polarized composite customer loyalty   66600.0   37823.0   
 999                    Expanded eco-centric policy  111100.0   62819.0   
 
-        outcome  backers_count country currency  launch_date    end_date  \
-0        failed              0      CA      CAD   1581573600  1614578400   
-1    successful            158      US      USD   1611554400  1621918800   
-2    successful           1425      AU      AUD   1608184800  1640844000   
-3        failed             24      US      USD   1634792400  1642399200   
-4        failed             53      US      USD   1608530400  1629694800   
-..          ...            ...     ...      ...          ...         ...   
-995  successful           2043      US      USD   1609221600  1622350800   
-996      failed            112      US      USD   1634274000  1638252000   
-997    canceled            139      IT      EUR   1636174800  1639116000   
-998      failed            374      US      USD   1602133200  1618117200   
-999    canceled           1122      US      USD   1609308000  1629262800   
+        outcome  backers_count country currency         launch_date  \
+0        failed              0      CA      CAD 2020-02-12 23:00:00   
+1    successful            158      US      USD 2021-01-24 23:00:00   
+2    successful           1425      AU      AUD 2020-12-16 23:00:00   
+3        failed             24      US      USD 2021-10-20 22:00:00   
+4        failed             53      US      USD 2020-12-20 23:00:00   
+..          ...            ...     ...      ...                 ...   
+995  successful           2043      US      USD 2020-12-28 23:00:00   
+996      failed            112      US      USD 2021-10-14 22:00:00   
+997    canceled            139      IT      EUR 2021-11-05 22:00:00   
+998      failed            374      US      USD 2020-10-07 22:00:00   
+999    canceled           1122      US      USD 2020-12-29 23:00:00   
 
-     staff_pick  spotlight    category  subcategory  
-0         False      False        food  food trucks  
-1         False       True       music         rock  
-2         False      False  technology          web  
-3         False      False       music         rock  
-4         False      False     theater        plays  
-..          ...        ...         ...          ...  
-995       False       True        food  food trucks  
-996       False      False     theater        plays  
-997       False      False     theater        plays  
-998       False       True       music   indie rock  
-999       False      False        food  food trucks  
+               end_date  staff_pick  spotlight    category  subcategory  
+0   2021-02-28 23:00:00       False      False        food  food trucks  
+1   2021-05-24 22:00:00       False       True       music         rock  
+2   2021-12-29 23:00:00       False      False  technology          web  
+3   2022-01-16 23:00:00       False      False       music         rock  
+4   2021-08-22 22:00:00       False      False     theater        plays  
+..                  ...         ...        ...         ...          ...  
+995 2021-05-29 22:00:00       False       True        food  food trucks  
+996 2021-11-29 23:00:00       False      False     theater        plays  
+997 2021-12-09 23:00:00       False      False     theater        plays  
+998 2021-04-10 22:00:00       False       True       music   indie rock  
+999 2021-08-17 22:00:00       False      False        food  food trucks  
 
 [1000 rows x 16 columns]
 
 
 
-0      2020-02-13
-1      2021-01-25
-2      2020-12-17
-3      2021-10-21
-4      2020-12-21
+0      2020-02-12
+1      2021-01-24
+2      2020-12-16
+3      2021-10-20
+4      2020-12-20
           ...    
-995    2020-12-29
-996    2021-10-15
-997    2021-11-06
-998    2020-10-08
-999    2020-12-30
+995    2020-12-28
+996    2021-10-14
+997    2021-11-05
+998    2020-10-07
+999    2020-12-29
 Name: launch_date, Length: 1000, dtype: object
 
 
 
-0      2021-03-01
-1      2021-05-25
-2      2021-12-30
-3      2022-01-17
-4      2021-08-23
+0      2021-02-28
+1      2021-05-24
+2      2021-12-29
+3      2022-01-16
+4      2021-08-22
           ...    
-995    2021-05-30
-996    2021-11-30
-997    2021-12-10
-998    2021-04-11
-999    2021-08-18
+995    2021-05-29
+996    2021-11-29
+997    2021-12-09
+998    2021-04-10
+999    2021-08-17
 Name: end_date, Length: 1000, dtype: object
 
 
@@ -327,17 +327,17 @@ Name: end_date, Length: 1000, dtype: object
 999                    Expanded eco-centric policy  111100.0   62819.0   
 
         outcome  backers_count country currency launch_date    end_date  \
-0        failed              0      CA      CAD  2020-02-13  2021-03-01   
-1    successful            158      US      USD  2021-01-25  2021-05-25   
-2    successful           1425      AU      AUD  2020-12-17  2021-12-30   
-3        failed             24      US      USD  2021-10-21  2022-01-17   
-4        failed             53      US      USD  2020-12-21  2021-08-23   
+0        failed              0      CA      CAD  2020-02-12  2021-02-28   
+1    successful            158      US      USD  2021-01-24  2021-05-24   
+2    successful           1425      AU      AUD  2020-12-16  2021-12-29   
+3        failed             24      US      USD  2021-10-20  2022-01-16   
+4        failed             53      US      USD  2020-12-20  2021-08-22   
 ..          ...            ...     ...      ...         ...         ...   
-995  successful           2043      US      USD  2020-12-29  2021-05-30   
-996      failed            112      US      USD  2021-10-15  2021-11-30   
-997    canceled            139      IT      EUR  2021-11-06  2021-12-10   
-998      failed            374      US      USD  2020-10-08  2021-04-11   
-999    canceled           1122      US      USD  2020-12-30  2021-08-18   
+995  successful           2043      US      USD  2020-12-28  2021-05-29   
+996      failed            112      US      USD  2021-10-14  2021-11-29   
+997    canceled            139      IT      EUR  2021-11-05  2021-12-09   
+998      failed            374      US      USD  2020-10-07  2021-04-10   
+999    canceled           1122      US      USD  2020-12-29  2021-08-17   
 
      staff_pick  spotlight    category  subcategory category_id  
 0         False      False        food  food trucks        cat2  
@@ -383,17 +383,17 @@ Name: end_date, Length: 1000, dtype: object
 999                      Right-sized web-enabled intranet    9700.0  11929.0   
 
         outcome  backers_count country currency launch_date    end_date  \
-0        failed              0      CA      CAD  2020-02-13  2021-03-01   
-1    successful            222      US      USD  2020-06-20  2021-01-30   
-2    successful            113      US      USD  2020-11-29  2021-06-11   
-3        failed            296      US      USD  2020-05-05  2021-05-30   
-4    successful            131      US      USD  2021-01-29  2021-02-13   
+0        failed              0      CA      CAD  2020-02-12  2021-02-28   
+1    successful            222      US      USD  2020-06-19  2021-01-29   
+2    successful            113      US      USD  2020-11-28  2021-06-10   
+3        failed            296      US      USD  2020-05-04  2021-05-29   
+4    successful            131      US      USD  2021-01-28  2021-02-12   
 ..          ...            ...     ...      ...         ...         ...   
-995      failed            830      US      USD  2020-08-17  2021-08-05   
-996  successful            144      US      USD  2020-11-28  2021-02-28   
-997  successful            300      US      USD  2021-01-04  2021-10-04   
-998  successful            419      US      USD  2021-01-25  2021-04-18   
-999  successful            331      US      USD  2022-02-01  2022-02-16   
+995      failed            830      US      USD  2020-08-16  2021-08-04   
+996  successful            144      US      USD  2020-11-27  2021-02-27   
+997  successful            300      US      USD  2021-01-03  2021-10-03   
+998  successful            419      US      USD  2021-01-24  2021-04-17   
+999  successful            331      US      USD  2022-01-31  2022-02-15   
 
      staff_pick  spotlight      category      subcategory category_id  \
 0         False      False          food      food trucks        cat2   
@@ -452,17 +452,17 @@ Name: end_date, Length: 1000, dtype: object
 999                      Right-sized web-enabled intranet    9700.0  11929.0   
 
         outcome  backers_count country currency launch_date    end_date  \
-0        failed              0      CA      CAD  2020-02-13  2021-03-01   
-1    successful            222      US      USD  2020-06-20  2021-01-30   
-2    successful            113      US      USD  2020-11-29  2021-06-11   
-3        failed            296      US      USD  2020-05-05  2021-05-30   
-4    successful            131      US      USD  2021-01-29  2021-02-13   
+0        failed              0      CA      CAD  2020-02-12  2021-02-28   
+1    successful            222      US      USD  2020-06-19  2021-01-29   
+2    successful            113      US      USD  2020-11-28  2021-06-10   
+3        failed            296      US      USD  2020-05-04  2021-05-29   
+4    successful            131      US      USD  2021-01-28  2021-02-12   
 ..          ...            ...     ...      ...         ...         ...   
-995      failed            830      US      USD  2020-08-17  2021-08-05   
-996  successful            144      US      USD  2020-11-28  2021-02-28   
-997  successful            300      US      USD  2021-01-04  2021-10-04   
-998  successful            419      US      USD  2021-01-25  2021-04-18   
-999  successful            331      US      USD  2022-02-01  2022-02-16   
+995      failed            830      US      USD  2020-08-16  2021-08-04   
+996  successful            144      US      USD  2020-11-27  2021-02-27   
+997  successful            300      US      USD  2021-01-03  2021-10-03   
+998  successful            419      US      USD  2021-01-24  2021-04-17   
+999  successful            331      US      USD  2022-01-31  2022-02-15   
 
     category_id subcategory_id  
 0          cat2        subcat7  
@@ -689,7 +689,7 @@ Name: name, Length: 1000, dtype: object
 [1000 rows x 4 columns]
 
 
-Timepoint: 09/22/2023 11:44:19
+Timepoint: 09/25/2023 14:30:55
 Program execution begins...
 
 
@@ -721,31 +721,31 @@ Program execution begins...
 998           Polarized composite customer loyalty   66600.0   37823.0   
 999                    Expanded eco-centric policy  111100.0   62819.0   
 
-        outcome  backers_count country currency  launched_at    deadline  \
-0        failed              0      CA      CAD   1581573600  1614578400   
-1    successful            158      US      USD   1611554400  1621918800   
-2    successful           1425      AU      AUD   1608184800  1640844000   
-3        failed             24      US      USD   1634792400  1642399200   
-4        failed             53      US      USD   1608530400  1629694800   
-..          ...            ...     ...      ...          ...         ...   
-995  successful           2043      US      USD   1609221600  1622350800   
-996      failed            112      US      USD   1634274000  1638252000   
-997    canceled            139      IT      EUR   1636174800  1639116000   
-998      failed            374      US      USD   1602133200  1618117200   
-999    canceled           1122      US      USD   1609308000  1629262800   
+        outcome  backers_count country currency         launched_at  \
+0        failed              0      CA      CAD 2020-02-12 23:00:00   
+1    successful            158      US      USD 2021-01-24 23:00:00   
+2    successful           1425      AU      AUD 2020-12-16 23:00:00   
+3        failed             24      US      USD 2021-10-20 22:00:00   
+4        failed             53      US      USD 2020-12-20 23:00:00   
+..          ...            ...     ...      ...                 ...   
+995  successful           2043      US      USD 2020-12-28 23:00:00   
+996      failed            112      US      USD 2021-10-14 22:00:00   
+997    canceled            139      IT      EUR 2021-11-05 22:00:00   
+998      failed            374      US      USD 2020-10-07 22:00:00   
+999    canceled           1122      US      USD 2020-12-29 23:00:00   
 
-     staff_pick  spotlight category & sub-category  
-0         False      False        food/food trucks  
-1         False       True              music/rock  
-2         False      False          technology/web  
-3         False      False              music/rock  
-4         False      False           theater/plays  
-..          ...        ...                     ...  
-995       False       True        food/food trucks  
-996       False      False           theater/plays  
-997       False      False           theater/plays  
-998       False       True        music/indie rock  
-999       False      False        food/food trucks  
+               deadline  staff_pick  spotlight category & sub-category  
+0   2021-02-28 23:00:00       False      False        food/food trucks  
+1   2021-05-24 22:00:00       False       True              music/rock  
+2   2021-12-29 23:00:00       False      False          technology/web  
+3   2022-01-16 23:00:00       False      False              music/rock  
+4   2021-08-22 22:00:00       False      False           theater/plays  
+..                  ...         ...        ...                     ...  
+995 2021-05-29 22:00:00       False       True        food/food trucks  
+996 2021-11-29 23:00:00       False      False           theater/plays  
+997 2021-12-09 23:00:00       False      False           theater/plays  
+998 2021-04-10 22:00:00       False       True        music/indie rock  
+999 2021-08-17 22:00:00       False      False        food/food trucks  
 
 [1000 rows x 15 columns]
 
@@ -777,31 +777,31 @@ Program execution begins...
 998           Polarized composite customer loyalty   66600.0   37823.0   
 999                    Expanded eco-centric policy  111100.0   62819.0   
 
-        outcome  backers_count country currency  launched_at    deadline  \
-0        failed              0      CA      CAD   1581573600  1614578400   
-1    successful            158      US      USD   1611554400  1621918800   
-2    successful           1425      AU      AUD   1608184800  1640844000   
-3        failed             24      US      USD   1634792400  1642399200   
-4        failed             53      US      USD   1608530400  1629694800   
-..          ...            ...     ...      ...          ...         ...   
-995  successful           2043      US      USD   1609221600  1622350800   
-996      failed            112      US      USD   1634274000  1638252000   
-997    canceled            139      IT      EUR   1636174800  1639116000   
-998      failed            374      US      USD   1602133200  1618117200   
-999    canceled           1122      US      USD   1609308000  1629262800   
+        outcome  backers_count country currency         launched_at  \
+0        failed              0      CA      CAD 2020-02-12 23:00:00   
+1    successful            158      US      USD 2021-01-24 23:00:00   
+2    successful           1425      AU      AUD 2020-12-16 23:00:00   
+3        failed             24      US      USD 2021-10-20 22:00:00   
+4        failed             53      US      USD 2020-12-20 23:00:00   
+..          ...            ...     ...      ...                 ...   
+995  successful           2043      US      USD 2020-12-28 23:00:00   
+996      failed            112      US      USD 2021-10-14 22:00:00   
+997    canceled            139      IT      EUR 2021-11-05 22:00:00   
+998      failed            374      US      USD 2020-10-07 22:00:00   
+999    canceled           1122      US      USD 2020-12-29 23:00:00   
 
-     staff_pick  spotlight    category  subcategory  
-0         False      False        food  food trucks  
-1         False       True       music         rock  
-2         False      False  technology          web  
-3         False      False       music         rock  
-4         False      False     theater        plays  
-..          ...        ...         ...          ...  
-995       False       True        food  food trucks  
-996       False      False     theater        plays  
-997       False      False     theater        plays  
-998       False       True       music   indie rock  
-999       False      False        food  food trucks  
+               deadline  staff_pick  spotlight    category  subcategory  
+0   2021-02-28 23:00:00       False      False        food  food trucks  
+1   2021-05-24 22:00:00       False       True       music         rock  
+2   2021-12-29 23:00:00       False      False  technology          web  
+3   2022-01-16 23:00:00       False      False       music         rock  
+4   2021-08-22 22:00:00       False      False     theater        plays  
+..                  ...         ...        ...         ...          ...  
+995 2021-05-29 22:00:00       False       True        food  food trucks  
+996 2021-11-29 23:00:00       False      False     theater        plays  
+997 2021-12-09 23:00:00       False      False     theater        plays  
+998 2021-04-10 22:00:00       False       True       music   indie rock  
+999 2021-08-17 22:00:00       False      False        food  food trucks  
 
 [1000 rows x 16 columns]
 
@@ -874,31 +874,31 @@ Program execution begins...
 998           Polarized composite customer loyalty   66600.0   37823.0   
 999                    Expanded eco-centric policy  111100.0   62819.0   
 
-        outcome  backers_count country currency  launched_at    deadline  \
-0        failed              0      CA      CAD   1581573600  1614578400   
-1    successful            158      US      USD   1611554400  1621918800   
-2    successful           1425      AU      AUD   1608184800  1640844000   
-3        failed             24      US      USD   1634792400  1642399200   
-4        failed             53      US      USD   1608530400  1629694800   
-..          ...            ...     ...      ...          ...         ...   
-995  successful           2043      US      USD   1609221600  1622350800   
-996      failed            112      US      USD   1634274000  1638252000   
-997    canceled            139      IT      EUR   1636174800  1639116000   
-998      failed            374      US      USD   1602133200  1618117200   
-999    canceled           1122      US      USD   1609308000  1629262800   
+        outcome  backers_count country currency         launched_at  \
+0        failed              0      CA      CAD 2020-02-12 23:00:00   
+1    successful            158      US      USD 2021-01-24 23:00:00   
+2    successful           1425      AU      AUD 2020-12-16 23:00:00   
+3        failed             24      US      USD 2021-10-20 22:00:00   
+4        failed             53      US      USD 2020-12-20 23:00:00   
+..          ...            ...     ...      ...                 ...   
+995  successful           2043      US      USD 2020-12-28 23:00:00   
+996      failed            112      US      USD 2021-10-14 22:00:00   
+997    canceled            139      IT      EUR 2021-11-05 22:00:00   
+998      failed            374      US      USD 2020-10-07 22:00:00   
+999    canceled           1122      US      USD 2020-12-29 23:00:00   
 
-     staff_pick  spotlight    category  subcategory  
-0         False      False        food  food trucks  
-1         False       True       music         rock  
-2         False      False  technology          web  
-3         False      False       music         rock  
-4         False      False     theater        plays  
-..          ...        ...         ...          ...  
-995       False       True        food  food trucks  
-996       False      False     theater        plays  
-997       False      False     theater        plays  
-998       False       True       music   indie rock  
-999       False      False        food  food trucks  
+               deadline  staff_pick  spotlight    category  subcategory  
+0   2021-02-28 23:00:00       False      False        food  food trucks  
+1   2021-05-24 22:00:00       False       True       music         rock  
+2   2021-12-29 23:00:00       False      False  technology          web  
+3   2022-01-16 23:00:00       False      False       music         rock  
+4   2021-08-22 22:00:00       False      False     theater        plays  
+..                  ...         ...        ...         ...          ...  
+995 2021-05-29 22:00:00       False       True        food  food trucks  
+996 2021-11-29 23:00:00       False      False     theater        plays  
+997 2021-12-09 23:00:00       False      False     theater        plays  
+998 2021-04-10 22:00:00       False       True       music   indie rock  
+999 2021-08-17 22:00:00       False      False        food  food trucks  
 
 [1000 rows x 16 columns]
 
@@ -930,62 +930,62 @@ Program execution begins...
 998           Polarized composite customer loyalty   66600.0   37823.0   
 999                    Expanded eco-centric policy  111100.0   62819.0   
 
-        outcome  backers_count country currency  launch_date    end_date  \
-0        failed              0      CA      CAD   1581573600  1614578400   
-1    successful            158      US      USD   1611554400  1621918800   
-2    successful           1425      AU      AUD   1608184800  1640844000   
-3        failed             24      US      USD   1634792400  1642399200   
-4        failed             53      US      USD   1608530400  1629694800   
-..          ...            ...     ...      ...          ...         ...   
-995  successful           2043      US      USD   1609221600  1622350800   
-996      failed            112      US      USD   1634274000  1638252000   
-997    canceled            139      IT      EUR   1636174800  1639116000   
-998      failed            374      US      USD   1602133200  1618117200   
-999    canceled           1122      US      USD   1609308000  1629262800   
+        outcome  backers_count country currency         launch_date  \
+0        failed              0      CA      CAD 2020-02-12 23:00:00   
+1    successful            158      US      USD 2021-01-24 23:00:00   
+2    successful           1425      AU      AUD 2020-12-16 23:00:00   
+3        failed             24      US      USD 2021-10-20 22:00:00   
+4        failed             53      US      USD 2020-12-20 23:00:00   
+..          ...            ...     ...      ...                 ...   
+995  successful           2043      US      USD 2020-12-28 23:00:00   
+996      failed            112      US      USD 2021-10-14 22:00:00   
+997    canceled            139      IT      EUR 2021-11-05 22:00:00   
+998      failed            374      US      USD 2020-10-07 22:00:00   
+999    canceled           1122      US      USD 2020-12-29 23:00:00   
 
-     staff_pick  spotlight    category  subcategory  
-0         False      False        food  food trucks  
-1         False       True       music         rock  
-2         False      False  technology          web  
-3         False      False       music         rock  
-4         False      False     theater        plays  
-..          ...        ...         ...          ...  
-995       False       True        food  food trucks  
-996       False      False     theater        plays  
-997       False      False     theater        plays  
-998       False       True       music   indie rock  
-999       False      False        food  food trucks  
+               end_date  staff_pick  spotlight    category  subcategory  
+0   2021-02-28 23:00:00       False      False        food  food trucks  
+1   2021-05-24 22:00:00       False       True       music         rock  
+2   2021-12-29 23:00:00       False      False  technology          web  
+3   2022-01-16 23:00:00       False      False       music         rock  
+4   2021-08-22 22:00:00       False      False     theater        plays  
+..                  ...         ...        ...         ...          ...  
+995 2021-05-29 22:00:00       False       True        food  food trucks  
+996 2021-11-29 23:00:00       False      False     theater        plays  
+997 2021-12-09 23:00:00       False      False     theater        plays  
+998 2021-04-10 22:00:00       False       True       music   indie rock  
+999 2021-08-17 22:00:00       False      False        food  food trucks  
 
 [1000 rows x 16 columns]
 
 
 
-0      2020-02-13
-1      2021-01-25
-2      2020-12-17
-3      2021-10-21
-4      2020-12-21
+0      2020-02-12
+1      2021-01-24
+2      2020-12-16
+3      2021-10-20
+4      2020-12-20
           ...    
-995    2020-12-29
-996    2021-10-15
-997    2021-11-06
-998    2020-10-08
-999    2020-12-30
+995    2020-12-28
+996    2021-10-14
+997    2021-11-05
+998    2020-10-07
+999    2020-12-29
 Name: launch_date, Length: 1000, dtype: object
 
 
 
-0      2021-03-01
-1      2021-05-25
-2      2021-12-30
-3      2022-01-17
-4      2021-08-23
+0      2021-02-28
+1      2021-05-24
+2      2021-12-29
+3      2022-01-16
+4      2021-08-22
           ...    
-995    2021-05-30
-996    2021-11-30
-997    2021-12-10
-998    2021-04-11
-999    2021-08-18
+995    2021-05-29
+996    2021-11-29
+997    2021-12-09
+998    2021-04-10
+999    2021-08-17
 Name: end_date, Length: 1000, dtype: object
 
 
@@ -1017,17 +1017,17 @@ Name: end_date, Length: 1000, dtype: object
 999                    Expanded eco-centric policy  111100.0   62819.0   
 
         outcome  backers_count country currency launch_date    end_date  \
-0        failed              0      CA      CAD  2020-02-13  2021-03-01   
-1    successful            158      US      USD  2021-01-25  2021-05-25   
-2    successful           1425      AU      AUD  2020-12-17  2021-12-30   
-3        failed             24      US      USD  2021-10-21  2022-01-17   
-4        failed             53      US      USD  2020-12-21  2021-08-23   
+0        failed              0      CA      CAD  2020-02-12  2021-02-28   
+1    successful            158      US      USD  2021-01-24  2021-05-24   
+2    successful           1425      AU      AUD  2020-12-16  2021-12-29   
+3        failed             24      US      USD  2021-10-20  2022-01-16   
+4        failed             53      US      USD  2020-12-20  2021-08-22   
 ..          ...            ...     ...      ...         ...         ...   
-995  successful           2043      US      USD  2020-12-29  2021-05-30   
-996      failed            112      US      USD  2021-10-15  2021-11-30   
-997    canceled            139      IT      EUR  2021-11-06  2021-12-10   
-998      failed            374      US      USD  2020-10-08  2021-04-11   
-999    canceled           1122      US      USD  2020-12-30  2021-08-18   
+995  successful           2043      US      USD  2020-12-28  2021-05-29   
+996      failed            112      US      USD  2021-10-14  2021-11-29   
+997    canceled            139      IT      EUR  2021-11-05  2021-12-09   
+998      failed            374      US      USD  2020-10-07  2021-04-10   
+999    canceled           1122      US      USD  2020-12-29  2021-08-17   
 
      staff_pick  spotlight    category  subcategory category_id  
 0         False      False        food  food trucks        cat2  
@@ -1073,17 +1073,17 @@ Name: end_date, Length: 1000, dtype: object
 999                      Right-sized web-enabled intranet    9700.0  11929.0   
 
         outcome  backers_count country currency launch_date    end_date  \
-0        failed              0      CA      CAD  2020-02-13  2021-03-01   
-1    successful            222      US      USD  2020-06-20  2021-01-30   
-2    successful            113      US      USD  2020-11-29  2021-06-11   
-3        failed            296      US      USD  2020-05-05  2021-05-30   
-4    successful            131      US      USD  2021-01-29  2021-02-13   
+0        failed              0      CA      CAD  2020-02-12  2021-02-28   
+1    successful            222      US      USD  2020-06-19  2021-01-29   
+2    successful            113      US      USD  2020-11-28  2021-06-10   
+3        failed            296      US      USD  2020-05-04  2021-05-29   
+4    successful            131      US      USD  2021-01-28  2021-02-12   
 ..          ...            ...     ...      ...         ...         ...   
-995      failed            830      US      USD  2020-08-17  2021-08-05   
-996  successful            144      US      USD  2020-11-28  2021-02-28   
-997  successful            300      US      USD  2021-01-04  2021-10-04   
-998  successful            419      US      USD  2021-01-25  2021-04-18   
-999  successful            331      US      USD  2022-02-01  2022-02-16   
+995      failed            830      US      USD  2020-08-16  2021-08-04   
+996  successful            144      US      USD  2020-11-27  2021-02-27   
+997  successful            300      US      USD  2021-01-03  2021-10-03   
+998  successful            419      US      USD  2021-01-24  2021-04-17   
+999  successful            331      US      USD  2022-01-31  2022-02-15   
 
      staff_pick  spotlight      category      subcategory category_id  \
 0         False      False          food      food trucks        cat2   
@@ -1142,17 +1142,17 @@ Name: end_date, Length: 1000, dtype: object
 999                      Right-sized web-enabled intranet    9700.0  11929.0   
 
         outcome  backers_count country currency launch_date    end_date  \
-0        failed              0      CA      CAD  2020-02-13  2021-03-01   
-1    successful            222      US      USD  2020-06-20  2021-01-30   
-2    successful            113      US      USD  2020-11-29  2021-06-11   
-3        failed            296      US      USD  2020-05-05  2021-05-30   
-4    successful            131      US      USD  2021-01-29  2021-02-13   
+0        failed              0      CA      CAD  2020-02-12  2021-02-28   
+1    successful            222      US      USD  2020-06-19  2021-01-29   
+2    successful            113      US      USD  2020-11-28  2021-06-10   
+3        failed            296      US      USD  2020-05-04  2021-05-29   
+4    successful            131      US      USD  2021-01-28  2021-02-12   
 ..          ...            ...     ...      ...         ...         ...   
-995      failed            830      US      USD  2020-08-17  2021-08-05   
-996  successful            144      US      USD  2020-11-28  2021-02-28   
-997  successful            300      US      USD  2021-01-04  2021-10-04   
-998  successful            419      US      USD  2021-01-25  2021-04-18   
-999  successful            331      US      USD  2022-02-01  2022-02-16   
+995      failed            830      US      USD  2020-08-16  2021-08-04   
+996  successful            144      US      USD  2020-11-27  2021-02-27   
+997  successful            300      US      USD  2021-01-03  2021-10-03   
+998  successful            419      US      USD  2021-01-24  2021-04-17   
+999  successful            331      US      USD  2022-01-31  2022-02-15   
 
     category_id subcategory_id  
 0          cat2        subcat7  

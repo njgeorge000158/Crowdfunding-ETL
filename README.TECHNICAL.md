@@ -87,11 +87,11 @@ ETLMiniProject.ipynb, ETLMiniProjectConstants.py, PyConstants.py, PyFunctions.py
 
 #### Input files
 
-crowdfunding.xlsx, contacts.xlsx
+contacts.xlsx, crowdfunding.xlsx
 
 #### Output files
 
-category.csv, subcategory.csv, contacts.csv, campaign.csv 
+campaign.csv, category.csv, contacts.csv, subcategory.csv
 
 #### SQL script
 
@@ -99,9 +99,9 @@ crowdfunding_db_schema.sql
 
 #### Software
 
-Jupyter Notebook, Python 3.11.4, Postgres 15.4
+Jupyter Notebook, Postgres 15.4, Python 3.11.4
 
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ----
 

@@ -25,7 +25,7 @@ python3 -m pip install aspose-words
 python3 -m pip install dataframe-image
 
 
-The SQL script, crowdfunding_db_schema.sql, is in the SQL folder and requires the installation of Postgres and pdAdmin4. 
+The SQL script, crowdfunding_db_schema.sql, is in the SQL folder and requires the installation of PostgreSQL and pdAdmin4. 
 
 If you have not installed them, here are the instructions:
 

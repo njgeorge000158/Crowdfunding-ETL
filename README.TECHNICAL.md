@@ -10,7 +10,7 @@ If the computer has Anaconda, Jupyter Notebook, and a recent version of Python, 
 
 In addition to those modules, the IPython notebook requires the following additional modules: holoviews, hvplot, geoviews, geopy, aspose-words, dataframe-image.
 
-Here are the requisite Terminal commands for installation of these peripheral modules:
+Here are the requisite Terminal commands for the installation of these peripheral modules:
 
 python3 -m pip install holoviews
 

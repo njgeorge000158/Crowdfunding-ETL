@@ -55,7 +55,7 @@ If you have not installed them, here are the instructions:
 
 ----
 
-The IPython notebook, ETLMiniProject_NGeorge_SSmith.ipynb, requires the following Python scripts with it in the same folder:
+The IPython notebook, ETLMiniProject.ipynb, requires the following Python scripts with it in the same folder:
 
 ETLMiniProjectConstants.py
 

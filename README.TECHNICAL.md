@@ -83,7 +83,7 @@ To place the IPython notebook in log mode, debug mode, or image mode set the par
 
 #### Source code
 
-ETLMiniProject_NGeorge_SSmith.ipynb, ETLMiniProjectConstants.py, PyConstants.py, PyFunctions.py, PyLogConstants.py, PyLogFunctions.py, PyLogSubRoutines.py, PySubRoutines.py
+ETLMiniProject.ipynb, ETLMiniProjectConstants.py, PyConstants.py, PyFunctions.py, PyLogConstants.py, PyLogFunctions.py, PyLogSubRoutines.py, PySubRoutines.py
 
 #### Input files
 

@@ -226,17 +226,17 @@ Jupyter Notebook, Postgres 15.4, Python 3.11.4
 
 ----
 
-[ETL (Extract, Transform, Load)](https://www.bmc.com/blogs/what-is-etl-extract-transform-load-etl-explained/) \
+[ETL (Extract, Transform, Load)](https://www.bmc.com/blogs/what-is-etl-extract-transform-load-etl-explained/)
 
-[Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html) \
+[Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)
 
-[PgAdmin Documentation](https://www.postgresql.org/docs/) \
+[PgAdmin Documentation](https://www.postgresql.org/docs/)
 
-[Postgres Documentation](https://www.pgadmin.org/docs/) \
+[Postgres Documentation](https://www.pgadmin.org/docs/)
 
-[PostgresSQL Documentation](https://www.postgresql.org/docs/) \
+[PostgresSQL Documentation](https://www.postgresql.org/docs/)
 
-[The Complete Guide to Regular Expressions](https://coderpad.io/blog/development/the-complete-guide-to-regular-expressions-regex/) \
+[The Complete Guide to Regular Expressions](https://coderpad.io/blog/development/the-complete-guide-to-regular-expressions-regex/)
 
 ----
 

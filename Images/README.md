@@ -1,4 +1,4 @@
-This folder contains images of all tables and plots on display in the IPython Notebook, ETLMiniProject.ipynb: the IPython Notebook generates these images in Image mode (see README.TECHNICAL.md).
+This folder contains images of all tables and plots on display in the IPython Notebook, ETLMiniProject.ipynb: the IPython Notebook generates these images in Image mode (see [README.TECHNICAL.md](./README.TECHNICAL.md)).
 
 ----
 ## Copyright

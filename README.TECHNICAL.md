@@ -182,9 +182,9 @@ Jupyter Notebook, Postgres 15.4, Python 3.11.4
 
 |&rarr; [./Logs/](./Logs/)
 
-  &emsp; |&rarr; [./Logs/20230922ETLMiniProjectDebug.txt](./Logs/20230922ETLMiniProjectDebug.txt)
+  &emsp; |&rarr; [./Logs/20231107ETLMiniProjectDebug.txt](./Logs/20231107ETLMiniProjectDebug.txt)
 
-  &emsp; |&rarr; [./Logs/20230922ETLMiniProjectLog.txt](./Logs/20230922ETLMiniProjectLog.txt)
+  &emsp; |&rarr; [./Logs/20231107ETLMiniProjectLog.txt](./Logs/20231107ETLMiniProjectLog.txt)
 
   &emsp; |&rarr; [./Logs/README.md](./Logs/README.md)
 

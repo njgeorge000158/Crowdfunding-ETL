@@ -25,7 +25,7 @@ python3 -m pip install aspose-words
 python3 -m pip install dataframe-image
 
 
-The SQL script, crowdfunding_db_schema.sql, is in the SQL folder and requires the installation of PostgreSQL and pdAdmin4. 
+The SQL script, crowdfunding_db_schema.sql, is in the folder, sql, and requires the installation of PostgreSQL and pdAdmin4. 
 
 If you have not installed them, here are the instructions:
 
@@ -55,25 +55,25 @@ If you have not installed them, here are the instructions:
 
 ----
 
-The IPython notebook, ETLMiniProject_NGeorge_SSmith.ipynb, requires the following Python scripts with it in the same folder:
+The IPython notebook, crowdfunding_etl.ipynb, requires the following Python scripts with it in the same folder:
 
-ETLMiniProjectConstants.py
+crowdfunding_etl.py
 
-PyConstants.py
+error_handle_functions.py
 
-PyFunctions.py
+log_constants.py
 
-PyLogConstants.py
+log_functions.py
 
-PyLogFunctions.py
+log_subroutines.py
 
-PyLogSubRoutines.py
+pandas_process_functions.py
 
 PySubroutines.py
 
-If the folders, Resources, Logs, and Images are not present, the IPython notebook will create them.  The Resources folder holds input and output files from the IPython Notebook; the Logs folder contains debug and log files from testing the IPython Notebook; the Images folder has the PNG image files of the IPython Notebook's tables and plots; and the SQL folder includes SQL scripts, Entity-Relationship Diagrams, and images of query results.
+If the folders, logs and images, are not present, the IPython notebook will create them.  The folder, resources, holds input and output files from the IPython Notebook; the folder, logs, contains debug and log files from testing the IPython Notebook; the folder, images has the PNG image files of the IPython Notebook's tables and plots; and the folder, sql, includes SQL scripts, Entity-Relationship Diagrams, and images of query results.
 
-To place the IPython notebook in log mode, debug mode, or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the Logs folder; the same is true in log mode for log information sent to a log file. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all DataFrames, hvplot maps, and matplotlib plots to png files in the Images folder.
+To place the IPython notebook in log mode or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the folder, logs; the same is true in log mode for log information sent to a log file. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all DataFrames, hvplot maps, and matplotlib plots to png files in the folder, images.
 
 ----
 
@@ -83,7 +83,7 @@ To place the IPython notebook in log mode, debug mode, or image mode set the par
 
 #### Source code
 
-ETLMiniProject_NGeorge_SSmith.ipynb, ETLMiniProjectConstants.py, PyConstants.py, PyFunctions.py, PyLogConstants.py, PyLogFunctions.py, PyLogSubRoutines.py, PySubRoutines.py
+crowdfunding_etl.ipynb, error_handle_functions.py, log_constants.py, log_functions.py, log_subroutines.py, pandas_process_functions.py
 
 #### Input files
 

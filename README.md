@@ -10,7 +10,7 @@ For this Extract, Transform, and Load (ETL) mini project, we build an ETL pipeli
 
 **A snapshot of the Crowdfunding Data Set loaded into a DataFrame:**
 
-![ETLMiniProjectTable111InitialCrowdfundingDataFrame](https://github.com/njgeorge000158/Crowdfunding_ETL/assets/137228821/4f67c4fa-6e27-4e65-ac28-e62508ca6525)
+![crowdfunding_etlTable111InitialCrowdfundingDataFrame](https://github.com/njgeorge000158/Crowdfunding-ETL/assets/137228821/bd4e9926-3ac1-436f-a14a-a2ba1c94612a)
 
 **A snapshot of the Contacts Data Set loaded into a DataFrame:**
 

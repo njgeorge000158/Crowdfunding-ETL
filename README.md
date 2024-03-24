@@ -63,4 +63,4 @@ In closing, this exercise has solid real-world applications as data is often dis
 
 ## Copyright
 
-N. James George, Stephen Smith © 2023. All Rights Reserved.
+Nicholas J. George, Stephen Smith © 2023. All Rights Reserved.

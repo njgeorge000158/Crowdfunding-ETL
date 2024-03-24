@@ -111,114 +111,108 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
 
 #### main branch 
 
-|&rarr; [./ETLMiniProjectConstants.py](./ETLMiniProjectConstants.py)
+|&rarr; [./crowdfunding_etl.py](./crowdfunding_etl.py)
 
-|&rarr; [./ETLMiniProject_NGeorge_SSmith.ipynb](./ETLMiniProject_NGeorge_SSmith.ipynb)
+|&rarr; [./error_handle_functions.py](./error_handle_functions.py)
 
-|&rarr; [./PyConstants.py](./PyConstants.py)  
+|&rarr; [./log_constants.py](./log_constants.py)  
 
-|&rarr; [./PyFunctions.py](./PyFunctions.py)
+|&rarr; [./log_functions.py](./log_functions.py)
 
-|&rarr; [./PyLogConstants.py](./PyLogConstants.py)
+|&rarr; [./log_subroutines.py](./log_subroutines.py)
 
-|&rarr; [./PyLogFunctions.py](./PyLogFunctions.py)
-
-|&rarr; [./PyLogSubRoutines.py](./PyLogSubRoutines.py)
-
-|&rarr; [./PySubRoutines.py](./PySubRoutines.py)
+|&rarr; [./pandas_process_functions.py](./pandas_process_functions.py)
 
 |&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
 
 |&rarr; [./README.md](./README.md)
 
-|&rarr; [./Images/](./Images/)
+|&rarr; [./images/](./images/)
 
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable111InitialCrowdfundingDataFrame.png](./Images/ETLMiniProjectTable111InitialCrowdfundingDataFrame.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable111InitialCrowdfundingDataFrame.png](./images/crowdfunding_etlTable111InitialCrowdfundingDataFrame.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable113CrowdfundingDataFrameDescription.png](./Images/ETLMiniProjectTable113CrowdfundingDataFrameDescription.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable113CrowdfundingDataFrameDescription.png](./images/crowdfunding_etlTable113CrowdfundingDataFrameDescription.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable114CrowdfundingDataFrameMemoryUsage.png](./Images/ETLMiniProjectTable114CrowdfundingDataFrameMemoryUsage.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable114CrowdfundingDataFrameMemoryUsage.png](./images/crowdfunding_etlTable114CrowdfundingDataFrameMemoryUsage.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable121UpdatedCrowdfundingDataFrame.png](./Images/ETLMiniProjectTable121UpdatedCrowdfundingDataFrame.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable121UpdatedCrowdfundingDataFrame.png](./images/crowdfunding_etlTable121UpdatedCrowdfundingDataFrame.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable131CategoryDataFrame.png](./Images/ETLMiniProjectTable131CategoryDataFrame.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable131CategoryDataFrame.png](./images/crowdfunding_etlTable131CategoryDataFrame.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable132SubcategoryDataFrame.png](./Images/ETLMiniProjectTable132SubcategoryDataFrame.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable132SubcategoryDataFrame.png](./images/crowdfunding_etlTable132SubcategoryDataFrame.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable211InitialCampaignDataFrame.png](./Images/ETLMiniProjectTable211InitialCampaignDataFrame.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable211InitialCampaignDataFrame.png](./images/crowdfunding_etlTable211InitialCampaignDataFrame.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable221CampaignDataFrameWithRenamedColumns.png](./Images/ETLMiniProjectTable221CampaignDataFrameWithRenamedColumns.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable221CampaignDataFrameWithRenamedColumns.png](./images/crowdfunding_etlTable221CampaignDataFrameWithRenamedColumns.png)
 
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable222CampaignDataFrameColumnDataTypes.png](./Images/ETLMiniProjectTable222CampaignDataFrameColumnDataTypes.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable222CampaignDataFrameColumnDataTypes.png](./images/crowdfunding_etlTable222CampaignDataFrameColumnDataTypes.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable223CampaignDataFrameWithDates.png](./Images/ETLMiniProjectTable223CampaignDataFrameWithDates.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable223CampaignDataFrameWithDates.png](./images/crowdfunding_etlTable223CampaignDataFrameWithDates.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable231MergedCampaignDataFrame.png](./Images/ETLMiniProjectTable231MergedCampaignDataFrame.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable231MergedCampaignDataFrame.png](./images/crowdfunding_etlTable231MergedCampaignDataFrame.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable232CleanMergedCampaignDataFrameFinal.png](./Images/ETLMiniProjectTable232CleanMergedCampaignDataFrameFinal.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable232CleanMergedCampaignDataFrameFinal.png](./images/crowdfunding_etlTable232CleanMergedCampaignDataFrameFinal.png)
 
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable234CleanMergedCampaignDataFrameDescription.png](./Images/ETLMiniProjectTable234CleanMergedCampaignDataFrameDescription.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable234CleanMergedCampaignDataFrameDescription.png](./images/crowdfunding_etlTable234CleanMergedCampaignDataFrameDescription.png)
   
   &emsp; |&rarr; 
-[./Images/ETLMiniProjectTable235CleanMergedCampaignDataFrameMemoryUsage.png](./Images/ETLMiniProjectTable235CleanMergedCampaignDataFrameMemoryUsage.png)
+[./images/crowdfunding_etlTable235CleanMergedCampaignDataFrameMemoryUsage.png](./images/crowdfunding_etlTable235CleanMergedCampaignDataFrameMemoryUsage.png)
 
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable311InitialContactsDataFrame.png](./Images/ETLMiniProjectTable311InitialContactsDataFrame.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable311InitialContactsDataFrame.png](./images/crowdfunding_etlTable311InitialContactsDataFrame.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable321UpdatedContactsDataFramewithContactID.png](./Images/ETLMiniProjectTable321UpdatedContactsDataFramewithContactID.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable321UpdatedContactsDataFramewithContactID.png](./images/crowdfunding_etlTable321UpdatedContactsDataFramewithContactID.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable324UpdatedContactsDataFrameWithName.png](./Images/ETLMiniProjectTable324UpdatedContactsDataFrameWithName.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable324UpdatedContactsDataFrameWithName.png](./images/crowdfunding_etlTable324UpdatedContactsDataFrameWithName.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable325UpdatedContactsDataFrameWithEmail.png](./Images/ETLMiniProjectTable325UpdatedContactsDataFrameWithEmail.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable325UpdatedContactsDataFrameWithEmail.png](./images/crowdfunding_etlTable325UpdatedContactsDataFrameWithEmail.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable331TransformedContactsDataFrame.png](./Images/ETLMiniProjectTable331TransformedContactsDataFrame.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable331TransformedContactsDataFrame.png](./images/crowdfunding_etlTable331TransformedContactsDataFrame.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable332TransformedContactsDataFrameWithFirstandLastNames.png](./Images/ETLMiniProjectTable332TransformedContactsDataFrameWithFirstandLastNames.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable332TransformedContactsDataFrameWithFirstandLastNames.png](./images/crowdfunding_etlTable332TransformedContactsDataFrameWithFirstandLastNames.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable341CleanContactsDataFrame.png](./Images/ETLMiniProjectTable341CleanContactsDataFrame.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable341CleanContactsDataFrame.png](./images/crowdfunding_etlTable341CleanContactsDataFrame.png)
   
-  &emsp; |&rarr; [./Images/ETLMiniProjectTable343CleanContactsDataFrameMemoryUsage.png](./Images/ETLMiniProjectTable343CleanContactsDataFrameMemoryUsage.png)
+  &emsp; |&rarr; [./images/crowdfunding_etlTable343CleanContactsDataFrameMemoryUsage.png](./images/crowdfunding_etlTable343CleanContactsDataFrameMemoryUsage.png)
   
-  &emsp; |&rarr; [./Images/README.md](./Images/README.md)
+  &emsp; |&rarr; [./images/README.md](./images/README.md)
 
-|&rarr; [./Logs/](./Logs/)
+|&rarr; [./logs/](./logs/)
 
-  &emsp; |&rarr; [./Logs/20230922ETLMiniProjectDebug.txt](./Logs/20230922ETLMiniProjectDebug.txt)
+  &emsp; |&rarr; [./logs/20240324crowdfunding_etl_log.txt](./logs/20240324crowdfunding_etl_log.txt)
 
-  &emsp; |&rarr; [./Logs/20230922ETLMiniProjectLog.txt](./Logs/20230922ETLMiniProjectLog.txt)
+  &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 
-  &emsp; |&rarr; [./Logs/README.md](./Logs/README.md)
+|&rarr; [./resources/](./resources/)
 
-|&rarr; [./Resources/](./Resources/)
+  &emsp; |&rarr; [./resources/README.md](./resources/README.md)
 
-  &emsp; |&rarr; [./Resources/README.md](./Resources/README.md)
+  &emsp; |&rarr; [./resources/campaign.csv](./resources/campaign.csv)
 
-  &emsp; |&rarr; [./Resources/campaign.csv](./Resources/campaign.csv)
+  &emsp; |&rarr; [./resources/category.csv](./resources/category.csv)
 
-  &emsp; |&rarr; [./Resources/category.csv](./Resources/category.csv)
+  &emsp; |&rarr; [./resources/contacts.csv](./resources/contacts.csv)
 
-  &emsp; |&rarr; [./Resources/contacts.csv](./Resources/contacts.csv)
+  &emsp; |&rarr; [./resources/contacts.xlsx](./resources/contacts.xlsx)
 
-  &emsp; |&rarr; [./Resources/contacts.xlsx](./Resources/contacts.xlsx)
+  &emsp; |&rarr; [./resources/crowdfunding.xlsx](./resources/crowdfunding.xlsx)
 
-  &emsp; |&rarr; [./Resources/crowdfunding.xlsx](./Resources/crowdfunding.xlsx)
+  &emsp; |&rarr; [./resources/subcategory.csv](./resources/subcategory.csv)
 
-  &emsp; |&rarr; [./Resources/subcategory.csv](./Resources/subcategory.csv)
+|&rarr; [./sql/](./sql/)
 
-|&rarr; [./SQL/](./SQL/)
+  &emsp; |&rarr; [./sql/crowdfunding_db_schema.png](./sql/crowdfunding_db_schema.png)
 
-  &emsp; |&rarr; [./SQL/PostgresDBTable_campaign.png](./SQL/PostgresDBTable_campaign.png)
-
-  &emsp; |&rarr; [./SQL/PostgresDBTable_category.png](./SQL/PostgresDBTable_category.png)
+  &emsp; |&rarr; [./sql/postgres_db_table_campaign.png](./sql/postgres_db_table_campaign.png)
   
-  &emsp; |&rarr; [./SQL/PostgresDBTable_contacts.png](./SQL/PostgresDBTable_contacts.png)
+  &emsp; |&rarr; [./sql/postgres_db_table_category.png](./sql/postgres_db_table_category.png)
 
-  &emsp; |&rarr; [./SQL/PostgresDBTable_subcategory.png](./SQL/PostgresDBTable_subcategory.png)
+  &emsp; |&rarr; [./sql/postgres_db_table_contacts.png](./sql/postgres_db_table_contacts.png)
 
-  &emsp; |&rarr; [./SQL/Project2Group8EntityRelationshipDiagram.png](./SQL/Project2Group8EntityRelationshipDiagram.png)
+  &emsp; |&rarr; [./sql/postgres_db_table_subcategory.png](./sql/postgres_db_table_subcategory.png)
 
-  &emsp; |&rarr; [./SQL/README.md](./SQL/README.md)
+  &emsp; |&rarr; [./sql/postgres_entity_relationship_diagram.png](./sql/postgres_entity_relationship_diagram.png)
 
-  &emsp; |&rarr; [./SQL/crowdfunding_db_schema.sql](./SQL/crowdfunding_db_schema.sql)
+  &emsp; |&rarr; [./sql/README.md](./sql/README.md)
 
 ----
 
@@ -246,4 +240,4 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
 
 ### Copyright
 
-N. James George, Stephen Smith © 2023. All Rights Reserved.
+Nicholas J. George, Stephen Smith © 2023. All Rights Reserved.

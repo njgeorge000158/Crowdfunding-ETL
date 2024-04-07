@@ -16,7 +16,7 @@ For this Extract, Transform, and Load (ETL) mini project, we build an ETL pipeli
 
 ![crowdfunding_etlTable311InitialContactsDataFrame](https://github.com/njgeorge000158/Crowdfunding-ETL/assets/137228821/758ea194-ec39-4647-a92e-8c06e756dceb)
 
-To begin, the Python Script in the IPython Notebook, ETLMiniProject_NGeorge_SSmith.ipynb, reads two MS Excel files, crowdfunding.xlsx and contacts.xlsx, into Pandas DataFrames using the DataFrame method, read_excel.  This method allows us to set data types upon extraction through a predefined Python Dictionary, which precludes the need to explicitly change data types later.  From the Crowdfunding DataFrame, the script splits the categories and subcategories from a single column then finds their unique values, sorts them alphabetically, and places them into lists; the ensuing DataFrames also possess sequential indices.
+To begin, the Python Script in the IPython Notebook, crowdfunding_etl.ipynb, reads two MS Excel files, crowdfunding.xlsx and contacts.xlsx, into Pandas DataFrames using the DataFrame method, read_excel.  This method allows us to set data types upon extraction through a predefined Python Dictionary, which precludes the need to explicitly change data types later.  From the Crowdfunding DataFrame, the script splits the categories and subcategories from a single column then finds their unique values, sorts them alphabetically, and places them into lists; the ensuing DataFrames also possess sequential indices.
 
 ![crowdfunding_etlTable131CategoryDataFrame](https://github.com/njgeorge000158/Crowdfunding-ETL/assets/137228821/e3296e80-494c-488f-9b0b-c0b6d8cb6b94)
 

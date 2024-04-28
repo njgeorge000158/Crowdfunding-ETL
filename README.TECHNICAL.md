@@ -57,8 +57,6 @@ If you have not installed them, here are the instructions:
 
 The IPython notebook, crowdfunding_etl.ipynb, requires the following Python scripts with it in the same folder:
 
-crowdfunding_etl.py
-
 logx_constants.py
 
 logx.py
@@ -81,7 +79,7 @@ To place the IPython notebook in log mode or image mode set the parameter for th
 
 #### Source code
 
-crowdfunding_etl.ipynb, error_handle_functions.py, log_constants.py, log_functions.py, log_subroutines.py, pandas_process_functions.py
+crowdfunding_etl.ipynb, logx_constants.py, logx.py, pandasx_constants.py, pandasx.py, timex.py
 
 #### Input files
 
@@ -110,16 +108,6 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
 #### main branch 
 
 |&rarr; [./crowdfunding_etl.py](./crowdfunding_etl.py)
-
-|&rarr; [./error_handle_functions.py](./error_handle_functions.py)
-
-|&rarr; [./log_constants.py](./log_constants.py)  
-
-|&rarr; [./log_functions.py](./log_functions.py)
-
-|&rarr; [./log_subroutines.py](./log_subroutines.py)
-
-|&rarr; [./pandas_process_functions.py](./pandas_process_functions.py)
 
 |&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
 
@@ -176,7 +164,7 @@ Jupyter Notebook, Python 3.11.4, Postgres 15.4
 
 |&rarr; [./logs/](./logs/)
 
-  &emsp; |&rarr; [./logs/20240324crowdfunding_etl_log.txt](./logs/20240324crowdfunding_etl_log.txt)
+  &emsp; |&rarr; [./logs/20240427crowdfunding_etl_log.txt](./logs/20240427crowdfunding_etl_log.txt)
 
   &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 

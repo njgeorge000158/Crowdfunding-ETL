@@ -57,11 +57,7 @@ If you have not installed them, here are the instructions:
 
 The IPython notebook, crowdfunding_etl.ipynb, requires the following Python scripts with it in the same folder:
 
-logx_constants.py
-
 logx.py
-
-pandasx_constants.py
 
 pandasx.py
 
@@ -79,7 +75,7 @@ To place the IPython notebook in log mode or image mode set the parameter for th
 
 #### Source code
 
-crowdfunding_etl.ipynb, logx_constants.py, logx.py, pandasx_constants.py, pandasx.py, timex.py
+crowdfunding_etl.ipynb, logx.py, pandasx.py, timex.py
 
 #### Input files
 

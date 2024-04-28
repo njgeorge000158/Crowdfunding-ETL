@@ -59,21 +59,19 @@ The IPython notebook, crowdfunding_etl.ipynb, requires the following Python scri
 
 crowdfunding_etl.py
 
-error_handle_functions.py
+logx_constants.py
 
-log_constants.py
+logx.py
 
-log_functions.py
+pandasx_constants.py
 
-log_subroutines.py
+pandasx.py
 
-pandas_process_functions.py
-
-PySubroutines.py
+timex.py
 
 If the folders, logs and images, are not present, the IPython notebook will create them.  The folder, resources, holds input and output files from the IPython Notebook; the folder, logs, contains debug and log files from testing the IPython Notebook; the folder, images has the PNG image files of the IPython Notebook's tables and plots; and the folder, sql, includes SQL scripts, Entity-Relationship Diagrams, and images of query results.
 
-To place the IPython notebook in log mode or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In debug mode, the program displays the debug information and writes it to a debug file in the folder, logs; the same is true in log mode for log information sent to a log file. If the program is in log mode but not debug mode, it displays no debug information, but writes that information to the log file. If the program is in image mode, it writes all DataFrames, hvplot maps, and matplotlib plots to png files in the folder, images.
+To place the IPython notebook in log mode or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In log mode, it writes information to the log file in the folder, logs. If the program is in image mode, it writes all dataframes, hvplot maps, and matplotlib plots to png files in the folder, images.
 
 ----
 

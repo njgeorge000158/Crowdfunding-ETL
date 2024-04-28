@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+logx_constants.py
+logx.py
+pandasx_constants.py
+pandasx.py
+timex.py
+
 # Distribution / packaging
 .Python
 build/

@@ -12,17 +12,17 @@ In addition to those modules, the IPython notebook requires the following additi
 
 Here are the requisite Terminal commands for installation of these peripheral modules:
 
-python3 -m pip install holoviews
+pip3 install -U holoviews
 
-python3 -m pip install hvplot
+pip3 install -U hvplot
 
-python3 -m pip install geoviews
+pip3 install -U geoviews
 
-python3 -m pip install geopy
+pip3 install -U geopy
 
-python3 -m pip install aspose-words
+pip3 install -U aspose-words
 
-python3 -m pip install dataframe-image
+pip3 install -U dataframe-image
 
 
 The SQL script, crowdfunding_db_schema.sql, is in the folder, sql, and requires the installation of PostgreSQL and pdAdmin4. 
@@ -63,9 +63,9 @@ pandasx.py
 
 timex.py
 
-If the folders, logs and images, are not present, the IPython notebook will create them.  The folder, resources, holds input and output files from the IPython Notebook; the folder, logs, contains debug and log files from testing the IPython Notebook; the folder, images has the PNG image files of the IPython Notebook's tables and plots; and the folder, sql, includes SQL scripts, Entity-Relationship Diagrams, and images of query results.
+If the folders, logs and images, are not present, the IPython notebook will create them. The folder, resources, holds input and output files from the IPython Notebook; the folder, logs, contains debug and log files from testing the IPython Notebook; the folder, images has the PNG image files of the IPython Notebook's tables and plots; and the folder, sql, includes SQL scripts, Entity-Relationship Diagrams, and images of query results.
 
-To place the IPython notebook in log mode or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In log mode, it writes information to the log file in the folder, logs. If the program is in image mode, it writes all dataframes, hvplot maps, and matplotlib plots to png files in the folder, images.
+To place the IPython notebook in log mode or image mode set the parameter for the appropriate subroutine in coding cell #2 to True. In log mode, the notebook writes information to the log file in the folder, logs. If the program is in image mode, it writes all dataframes, hvplot maps, and matplotlib plots to png files in the folder, images.
 
 ----
 
@@ -91,7 +91,7 @@ crowdfunding_db_schema.sql
 
 #### Software
 
-Jupyter Notebook, Python 3.11.4, Postgres 15.4
+Jupyter Notebook, Python 3.11.5, Postgres 15.4
 
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
